@@ -1,0 +1,1 @@
+{"class_weight":"balanced","_timestamp":1.7661653833264554e+09,"max_depth":15,"_step":0,"max_features":"sqrt","min_samples_leaf":5,"valid_f1":0.8076923076923077,"min_samples_split":5,"_wandb":{"runtime":6},"_runtime":6,"train_f1":0.9793103448275862}
