@@ -214,5 +214,5 @@ def gyujtes(ertek: int, osszeszedni: int, maximumszor: int = 1, limit_per_kor: i
 # Futtatás
 #gyujtes(0, 300, keywords=KEYWORDS)
 #gyujtes(1, 300, keywords=KEYWORDS)
-mentes('0urls_test.txt', 0, KEYWORDS, 10)
-mentes('1urls_test.txt', 1, KEYWORDS, 10)
+mentes('0urls_test.txt', 0, KEYWORDS)
+mentes('1urls_test.txt', 1, KEYWORDS)
