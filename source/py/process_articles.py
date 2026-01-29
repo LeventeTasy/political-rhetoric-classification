@@ -3,8 +3,6 @@ import pandas as pd
 from newspaper import Article, ArticleException
 
 
-# Uncomment the following line if running for the first time
-# import nltk; nltk.download('punkt')
 
 def get_existing_urls(csv_file: str) -> set:
     """Reads the CSV file and returns a set of URLs that are already saved."""
