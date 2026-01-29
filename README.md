@@ -25,7 +25,7 @@ The model achieves a robust **89% overall accuracy**. Below is the detailed clas
 | **Precision** | 0.87 | 0.91 | 0.89 |
 | **Recall** | 0.92 | 0.86 | 0.89 |
 | **F1-Score** | 0.89 | 0.88 | 0.89 |
-| **Accuracy** | | | **0.888** |
+| **Accuracy** | | | **0.89** |
 
 > **Note:** The high precision for Class 1 (0.91) indicates that when the model flags an article as propaganda, it is correct in 91% of the cases, minimizing "false accusations."
 
