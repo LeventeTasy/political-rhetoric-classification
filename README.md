@@ -48,7 +48,7 @@ from joblib import load
 model = load('models/ensemble_pipeline_id1_0_89.joblib')
 
 # Example: Analysis via URL
-url = "[https://example.com/article](https://example.com/article)"
+url = "https://example.com/article"
 result = predict_bias(model, url)
 
 print(result)
