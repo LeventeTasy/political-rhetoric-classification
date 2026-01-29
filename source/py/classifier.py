@@ -1,5 +1,4 @@
 import numpy as np
-from joblib import load
 from newspaper import Article
 
 LABELS = {0: "Neutral rhetoric", 1: "Propagandistic rhetoric"}
@@ -27,22 +26,19 @@ def _calculate_manual_confidence(model, text, predicted_class):
     It digs into the pipeline to get probability estimates from the underlying estimators.
     """
     try:
-        # Assuming the pipeline structure is [Vectorizer, ..., Classifier]
         vectorizer = model.steps[0][1]
         classifier = model.steps[-1][1]
 
-        # Transform text to vector
         X_vec = vectorizer.transform([text])
 
         internal_probs = []
         if hasattr(classifier, 'estimators_'):
             for estimator in classifier.estimators_:
                 try:
-                    # Ask each internal estimator for its probability
                     prob = estimator.predict_proba(X_vec)[0][predicted_class]
                     internal_probs.append(prob)
                 except AttributeError:
-                    continue  # Skip estimators that don't support probability
+                    continue
 
         if internal_probs:
             return np.mean(internal_probs)
@@ -69,7 +65,6 @@ def predict_bias(model, input_data):
 
     try:
         # 2. Predict (0 or 1)
-        # Note: We pass [text_content] as a list because sklearn expects an iterable
         prediction_idx = model.predict([text_content])[0]
 
         # 3. Calculate Confidence (Probability)
