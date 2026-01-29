@@ -38,7 +38,7 @@ def clean_source_file(source_file: str, urls_to_remove: list):
         print(f"Error updating source file: {e}")
 
 
-def process_articles(source_file: str, label: int, output_csv: str = "../../data/articles.csv"):
+def process_articles(source_file: str, label: int, output_csv: str = "../../data/articles_example.csv"):
     """
     Reads URLs from a text file, downloads the articles, saves them to CSV,
     and removes broken links (403 Forbidden) from the source file.
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     os.makedirs("../../data", exist_ok=True)
 
     # Process Independent Articles (Label 0)
-    process_articles(source_file="../../data/0urls.txt", label=0)
+    process_articles(source_file="../../data/0urls_example.txt", label=0)
 
     # Process Propaganda/Gov Articles (Label 1)
-    process_articles(source_file="../../data/1urls.txt", label=1)
+    process_articles(source_file="../../data/1urls_example.txt", label=1)
