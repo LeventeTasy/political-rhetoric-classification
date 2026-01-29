@@ -170,7 +170,7 @@ if __name__ == "__main__":
     # 0 = Independent, 1 = Gov
 
     # Collect 200 independent articles
-    collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORDS, max_items=200)
+    collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords=KEYWORDS, max_items=200)
 
     # Collect 200 pro-gov articles
-    collect_news(category_id=1, output_file='../../data/1urls.txt', keywords=KEYWORDS, max_items=200)
+    collect_news(category_id=1, output_file='../../data/1urls_example.txt', keywords=KEYWORDS, max_items=200)
