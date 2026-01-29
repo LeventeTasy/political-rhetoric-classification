@@ -4,7 +4,7 @@ from newspaper import Article
 
 # --- CONFIGURATION ---
 MODEL_PATH = '../../models/ensemble_pipeline_id1_0_89.joblib'
-LABELS = {0: "Independent", 1: "Propaganda"}
+LABELS = {0: "Neutral rhetoric", 1: "Propagandistic rhetoric"}
 
 
 def fetch_article_content(url):
@@ -97,10 +97,10 @@ def predict_bias(model, input_data):
         # Add a warning if it's flagged as Propaganda but confidence is low (<50% essentially means the model is split)
         # Note: In binary classification, if confidence for class 1 is < 0.5, it would usually be class 0.
         # But depending on how confidence is calculated above, we might want this check.
-        result_msg = f"{label}, {score_percent}% chance of being propaganda"
+        result_msg = f"{label}, {score_percent}% chance for containing propagandistic rhetoric"
 
-        if label == "Propaganda" and propaganda_score < 0.5:
-            result_msg = f"Suspicious (Uncertain), {score_percent}% chance of being propaganda"
+        if label == "Propagandistic rhetoric" and propaganda_score < 0.5:
+            result_msg = f"Suspicious (Uncertain), {score_percent}% chance for containing propagandistic rhetoric"
 
         if is_url:
             result_msg += f" | URL: {input_data}"
