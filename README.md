@@ -67,3 +67,7 @@ This tool is intended for academic research purposes only.
 
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
+
+
+Created by: 
+Levente Tasy
