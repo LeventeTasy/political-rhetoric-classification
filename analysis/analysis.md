@@ -28,10 +28,10 @@ Let's look at an example code of how we can expand articles:
 from collect_urls import collect_news
 
 KEYWORDS = [...]
-collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords=KEYWORDS, max_items=200) # 
+collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords=KEYWORDS, max_items=200) # It is not necessary to specify the max_items or keywords from the outset.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA1NjY0NjIsLTY5NTc4NzkxMywtOD
+eyJoaXN0b3J5IjpbLTIwMjk4MDEyOTcsLTY5NTc4NzkxMywtOD
 kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
