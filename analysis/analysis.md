@@ -51,10 +51,10 @@ I weighted the raw frequency data using TfidfTransformer to give more weight to 
 ## 4. Rhetorical analysis from TF-IDF weights
 
 ### a) Analysis of independent rhetoric
-![alt text](Isolated.png "Title")
+![Independent Tfidf Weights](Independent Tfidf Weights.jpg "Independent Tfidf Weights")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjM3OTYyMywtMTI3NDM0MTU2NywtOD
+eyJoaXN0b3J5IjpbMTcwNTQ5MTc2NCwtMTI3NDM0MTU2NywtOD
 YwMjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3
 OTEzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
 -->
