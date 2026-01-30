@@ -26,14 +26,17 @@ In the `process_articles.py` file, we are able to
 Let's look at an example code of how we can expand the CSV file with independent articles:
 ```python
 from collect_urls import collect_news
-from process_articles import 
+from process_articles import process_articles
 
 # Collecting new URLs using RSS feeds
 KEYWORDS = [...]
 collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORDS, max_items=200) # It is not necessary to specify the max_items or keywords from the outset.
+
+# Downloading the articles, and attach them to the CSV file
+process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent, 1 = Pro-go
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMTc4MTI5LC02OTU3ODc5MTMsLTg5Mj
-E3NjM4OSwtNjU0NDkwMjI0XX0=
+eyJoaXN0b3J5IjpbLTc0MTU3MDgxOCwtNjk1Nzg3OTEzLC04OT
+IxNzYzODksLTY1NDQ5MDIyNF19
 -->
