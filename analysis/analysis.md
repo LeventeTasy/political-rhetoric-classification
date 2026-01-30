@@ -55,11 +55,12 @@ As can be seen in the attached graph, typical of independent press releases, the
 ![Independent Tfidf Weights](Independent_Tfidf_Weights.jpg "Independent Tfidf Weights")
 
 ### b) Analysis of Propagandistic Rhetoric
+On the other hand, looking at the top 20 words with the greatest weight in propagandistic rhetoric, we can see that more proper nouns appear here. Péter Magyar's name appears first (presumably, but Magyar also means "Hungarian" in Hungarian), followed immediately by his party, Tisza. This clearly illustrates the current government's thematic focus. In addition, it is also noticeable that bigrams, expressions consisting of two words, have already appeared here, which the algorithm has successfully recognized (Peter Magyar, Viktor Orban, Tisza Party). The government's current thematic focus is clearly visible here: Peter Magyar, Tisza Party, and the Ukrainian-Russian conflict, which is receiving a lot of attention from the government media.
 ![Propagandistic Rhetoric Tfidf Weights](Propagandistic_Rhetoric_Tfidf_Weights.jpg "Propagandistic Rhetoric Tfidf Weights")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MT
-Q5NjAxMzQsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5
-NDUsLTExMDgxOTEzNSwtNzMyMTMxNDY3LC02OTU3ODc5MTMsLT
-g5MjE3NjM4OSwtNjU0NDkwMjI0XX0=
+eyJoaXN0b3J5IjpbLTc4ODA1MTAyOSwtMjMyNzIwNTc1LDE0Nz
+M1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1
+NjcsLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLT
+Y5NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
