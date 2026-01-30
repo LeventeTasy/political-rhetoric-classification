@@ -11,7 +11,7 @@ I classified the news sources into two categories: *Independent* and *Pro-Govern
 - **Duplication filtering:** Before each save, the system checked for existing URLs, thus avoiding distortion of the data set with duplicate content.
 
 ### b) Article Scraping
-Based on the collected URLs, I downloaded the full text of the articles using the `newspaper3k` library. I recorded the data in CSV format (`url`, `title`, `text`, `label`), where the `label` (0 or 1) indicates the category of the news source.
+Based on the collected URLs, I downloaded the full text of the articles using the `newspaper3k` library. I recorded the data in CSV format (`url`, `title`, `text`, `label`), where the `label` (0 or 1) indicates the category of the news source. Labels correspond to media alignment, not individual article intent.
 
 ### Usage
 Let's look at an example code of how can we expand the CSV file with independent articles:
@@ -48,16 +48,22 @@ When configuring CountVectorizer, I made several critical decisions to improve t
 ### b) TfidfTransformer
 I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the *sublinear_tf=True* setting, which uses logarithmic scaling (1 + log(TF)). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
 
-## 4. Rhetorical analysis from TF-IDF weights
+## 4. Rhetorical Analysis from TF-IDF Weights
 
-### a) Analysis of independent rhetoric
+### a) Analysis of Independent Rhetoric
+As can be seen in the attached graph, typical of independent news articles, the TOP 20 most frequently used words are mostly verbs and common nouns, with fewer proper nouns among them. These words are also generally characterized by emotional neutrality, with no words describing direct fear or danger appearing among them.
 ![Independent Tfidf Weights](Independent_Tfidf_Weights.jpg "Independent Tfidf Weights")
-![alt text](Isolated.png "Title")
 
-
+### b) Analysis of Propagandistic Rhetoric
+On the other hand, looking at the top 20 words with the greatest weight in propagandistic rhetoric, we can see that more proper nouns appear here. Péter Magyar's name appears first (presumably, but Magyar also means "Hungarian" in Hungarian), followed immediately by his party, Tisza. This suggests a strong thematic emphasis in pro-government media during the observed time period. In addition, it is also noticeable that bigrams, expressions consisting of two words, have already appeared here, which the algorithm has successfully recognized (Peter Magyar, Viktor Orban, Tisza Party). The government's current thematic focus is clearly visible here: Peter Magyar, Tisza Party, and the Ukrainian-Russian conflict, which is receiving a lot of attention from the government media.
+![Propagandistic Rhetoric Tfidf Weights](Propagandistic_Rhetoric_Tfidf_Weights.jpg "Propagandistic Rhetoric Tfidf Weights")
+### c) Lexical Divergence by Tfidf Weights
+The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. This suggests that while Russia is an unavoidable geopolitical factor on both sides, Ukraine is a specific "target" or "source of danger" in government rhetoric. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
+![Lexical Divergence by Tfidf Weights](Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNz
-QzNDE1NjcsLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0
-NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ
-==
+eyJoaXN0b3J5IjpbLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMT
+MwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1
+MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1Nj
+csLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5
+NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
