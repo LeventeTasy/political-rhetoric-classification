@@ -7,9 +7,12 @@ The data collection process consisted of two main phases, ensuring relevance and
 
 ### a) URL Discovery via RSS Feeds 
 I classified the news sources into two categories: *Independent* and *Pro-Government*. For data collection, I used the `feedparser` library to monitor RSS feeds.
-- **Keyword filtering:** I only collected articles whose title or summary contained specific *political keywords* (e.g., Brussels, war, dollar left, sovereignty). This ensured that the model learned political rhetoric rather than sports news or tabloid gossip.
+- **Keyword filtering:** I only collected articles whose title or summary contained specific *political keywords* (e.g., Brussels, war, EU, Orban, Peter Magyar). This ensured that the model learned political rhetoric rather than sports news or tabloid gossip.
 - **Duplication filtering:** Before each save, the system checked for existing URLs, thus avoiding distortion of the data set with duplicate content.
+
+### b) Article Scraping and Cleaning
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzg4OTY3OCwtNjk1Nzg3OTEzLC04OT
-IxNzYzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTE5MzI5NDM0ODIsLTY5NTc4NzkxMywtOD
+kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
