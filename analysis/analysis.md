@@ -24,10 +24,14 @@ collect_news(category_id=1, output_file='../../data/1urls_example.txt', keywords
 ```
 In the `process_articles.py` file, we are able to 
 Let's look at an example code of how we can expand articles:
+```python
+from collect_urls import collect_news
 
-
+KEYWORDS = [...]
+collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords=KEYWORDS, max_items=200) # 
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY1NTQ2OCwtNjk1Nzg3OTEzLC04OT
-IxNzYzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTIwNzA1NjY0NjIsLTY5NTc4NzkxMywtOD
+kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
