@@ -30,11 +30,12 @@ process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent,
 When preparing the data, the goal was to reduce the noise level of the text and standardize the encoding of the content. To do this, I used the SpaCy (Hungarian language model) library through an optimized nlp.pipe process.
 ### a) The Cleaning Workflow
 The `spacy_preprocess_pipe` function performs the following steps: 
-- **Tokenization and Filtering**: We removed stop words (conjunctions, articles) and punctuation marks, as these do not carry political meaning in terms of rhetorical analysis. 
--  Lemmatization (Word Stemming): We reduced every word to its root form (e.g., "kormányunk" $\rightarrow$ "kormány"). This is a critical step in Hungarian due to the high variability of inflection, as it allows the TF-IDF model to combine words with the same meaning. 
-- Numerical Standardization: We replaced numbers with a uniform NUM token. This helps the model recognize statistical-based reasoning without treating each unique year or amount as a separate feature. 
-- Title and Content Merging: We treated the article title and body text as a single unit, as titles often contain the strongest rhetorical markers.
+- **Tokenization and Filtering:** We removed stop words (conjunctions, articles) and punctuation marks, as these do not carry political meaning in terms of rhetorical analysis. 
+-  **Lemmatization:** We reduced every word to its root form. This is a critical step in Hungarian due to the high variability of inflection, as it allows the TF-IDF model to combine words with the same meaning. 
+- **Numerical Standardization:** We replaced numbers with a uniform `NUM` token. This helps the model recognize statistical-based reasoning without treating each unique year or amount as a separate feature. 
+- **Title and Content Merging:** We treated the article title and body text as a single unit, as titles often contain the strongest rhetorical markers.
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAxNTUzNSwtNjk1Nzg3OTEzLC04OT
-IxNzYzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTE2OTExODg5OTksLTY5NTc4NzkxMywtOD
+kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
