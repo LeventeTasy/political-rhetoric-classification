@@ -26,8 +26,9 @@ collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORD
 # Downloading the articles, and attach them to the CSV file
 process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent, 1 = Pro-Government
 ```
+## 2. Preprocessing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTYxODg0MywtNjk1Nzg3OTEzLC04OT
+eyJoaXN0b3J5IjpbLTgwMDA5NzMyMywtNjk1Nzg3OTEzLC04OT
 IxNzYzODksLTY1NDQ5MDIyNF19
 -->
