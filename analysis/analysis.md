@@ -23,15 +23,17 @@ collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords
 collect_news(category_id=1, output_file='../../data/1urls_example.txt', keywords=KEYWORDS, max_items=200)
 ```
 In the `process_articles.py` file, we are able to 
-Let's look at an example code of how we can expand articles:
+Let's look at an example code of how we can expand the CSV file with independent articles:
 ```python
 from collect_urls import collect_news
+from process_articles import 
 
+# Collecting new URLs using RSS feeds
 KEYWORDS = [...]
-collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords=KEYWORDS, max_items=200) # It is not necessary to specify the max_items or keywords from the outset.
+collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORDS, max_items=200) # It is not necessary to specify the max_items or keywords from the outset.
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjk4MDEyOTcsLTY5NTc4NzkxMywtOD
-kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbODIwMTc4MTI5LC02OTU3ODc5MTMsLTg5Mj
+E3NjM4OSwtNjU0NDkwMjI0XX0=
 -->
