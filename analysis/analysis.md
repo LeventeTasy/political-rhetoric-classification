@@ -48,9 +48,13 @@ When configuring CountVectorizer, I made several critical decisions to improve t
 ### b) TfidfTransformer
 I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the *sublinear_tf=True* setting, which uses logarithmic scaling (1 + log(TF)). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
 
-### Analysis of TFIDF weights
+## 4. Rhetorical analysis from TF-IDF weights
+
+### a) Analysis of independent rhetoric
+![alt text](Isolated.png "Title")
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMT
-EwODE5MTM1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2
-Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbLTQ0MjM3OTYyMywtMTI3NDM0MTU2NywtOD
+YwMjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3
+OTEzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
 -->
