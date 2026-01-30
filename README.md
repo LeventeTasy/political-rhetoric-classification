@@ -10,7 +10,7 @@ The core of the system is a **Voting Classifier** ensemble that leverages two di
 * **GradientBoostingClassifier:** Captures non-linear relationships and nuanced patterns in the rhetoric that linear models might miss.
 
 ### Data & Preprocessing
-- **Dataset Size:** Trained on a curated corpus of **~1,600 Hungarian news articles**.
+- **Dataset Size:** Trained on a curated corpus of **~1,700 Hungarian news articles**.
 - **Collection Period:** Data was collected between **December 2025 and January 2026**.
 - **Preprocessing:** - Custom Hungarian tokenizer.
   - Stopword removal (standard Hungarian set).
