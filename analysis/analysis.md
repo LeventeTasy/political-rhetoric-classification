@@ -48,15 +48,18 @@ When configuring CountVectorizer, I made several critical decisions to improve t
 ### b) TfidfTransformer
 I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the *sublinear_tf=True* setting, which uses logarithmic scaling (1 + log(TF)). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
 
-## 4. Rhetorical analysis from TF-IDF weights
+## 4. Rhetorical Analysis from TF-IDF Weights
 
-### a) Analysis of independent rhetoric
+### a) Analysis of Independent Rhetoric
+As can be seen in the attached graph, typical of independent press releases, the TOP 20 most frequently used words are mostly verbs and common nouns, with fewer proper nouns among them. These words are also generally characterized by emotional neutrality, with no words describing direct fear or danger appearing among them.
 ![Independent Tfidf Weights](Independent_Tfidf_Weights.jpg "Independent Tfidf Weights")
+
+### b) Analysis of Propagandistic Rhetoric
 ![Propagandistic Rhetoric Tfidf Weights](Propagandistic_Rhetoric_Tfidf_Weights.jpg "Propagandistic Rhetoric Tfidf Weights")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcxND
-E5MTM4NiwtMTI3NDM0MTU2NywtODYwMjE5OTQ1LC0xMTA4MTkx
-MzUsLTczMjEzMTQ2NywtNjk1Nzg3OTEzLC04OTIxNzYzODksLT
-Y1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MT
+Q5NjAxMzQsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5
+NDUsLTExMDgxOTEzNSwtNzMyMTMxNDY3LC02OTU3ODc5MTMsLT
+g5MjE3NjM4OSwtNjU0NDkwMjI0XX0=
 -->
