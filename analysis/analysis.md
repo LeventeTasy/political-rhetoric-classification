@@ -27,8 +27,9 @@ collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORD
 process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent, 1 = Pro-Government
 ```
 ## 2. Preprocessing
-Minimal preprocessing was applied to preserve rhetorical structure.
+When preparing the data, the goal was to reduce the noise level of the text and standardize the encoding of the content. To do this, I used the SpaCy (Hungarian language model) library through an optimized nlp.pipe process.
+### a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDQ1ODA1MSwtNjk1Nzg3OTEzLC04OT
+eyJoaXN0b3J5IjpbMjA0MzA3MDQwNiwtNjk1Nzg3OTEzLC04OT
 IxNzYzODksLTY1NDQ5MDIyNF19
 -->
