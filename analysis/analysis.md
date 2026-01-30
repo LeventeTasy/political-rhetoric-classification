@@ -27,8 +27,8 @@ collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORD
 process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent, 1 = Pro-Government
 ```
 ## 2. Preprocessing
-
+Minimal preprocessing was applied to preserve rhetorical structure.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMDA5NzMyMywtNjk1Nzg3OTEzLC04OT
+eyJoaXN0b3J5IjpbMjAzNDQ1ODA1MSwtNjk1Nzg3OTEzLC04OT
 IxNzYzODksLTY1NDQ5MDIyNF19
 -->
