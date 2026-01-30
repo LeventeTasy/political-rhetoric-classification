@@ -46,8 +46,10 @@ When configuring CountVectorizer, I made several critical decisions to improve t
 - **Min_df / Max_df:** I excluded words that appear in more than 90% of the documents (too common, no distinguishing power), thus refining the model's focus.
 ### b) TfidfTransformer
 I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the *sublinear_tf=True* setting, which uses logarithmic scaling (1 + log(TF)). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
+
+![Ensemble Modell Confusion Matrix](ensemble_cm.png "Title")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA5MTM2NzMsLTExMDgxOTEzNSwtNz
-MyMTMxNDY3LC02OTU3ODc5MTMsLTg5MjE3NjM4OSwtNjU0NDkw
-MjI0XX0=
+eyJoaXN0b3J5IjpbLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03Mz
+IxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAy
+MjRdfQ==
 -->
