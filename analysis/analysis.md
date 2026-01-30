@@ -31,11 +31,13 @@ When preparing the data, the goal was to reduce the noise level of the text and 
 ### a) The Cleaning Workflow
 The `spacy_preprocess_pipe` function performs the following steps: 
 - **Tokenization and Filtering:** We removed stop words (conjunctions, articles) and punctuation marks, as these do not carry political meaning in terms of rhetorical analysis. 
--  **Lemmatization:** We reduced every word to its root form. This is a critical step in Hungarian due to the high variability of inflection, as it allows the TF-IDF model to combine words with the same meaning. 
+-  **Lemmatization:** I reduced every word to its root form. This is a critical step in Hungarian due to the high variability of inflection, as it allows the TF-IDF model to combine words with the same meaning. 
 - **Numerical Standardization:** We replaced numbers with a uniform `NUM` token. This helps the model recognize statistical-based reasoning without treating each unique year or amount as a separate feature. 
 - **Title and Content Merging:** We treated the article title and body text as a single unit, as titles often contain the strongest rhetorical markers.
-### 
+### b) Efficiency and Incremental Loading
+- **Batch Processing:** Using SpaCy `nlp.pipe` allows for batch processing of texts, which is significantly faster than calling the model line by line.
+- **Persistent Caching:** I introduced an incremental processing logic. The program checks the URLs already processed in processed_articles.csv and only runs new articles through the NLP pipeline. This saves significant computing capacity when expanding the database.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTExODg5OTksLTY5NTc4NzkxMywtOD
-kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbMTY2NjQwMDI4MCwtNjk1Nzg3OTEzLC04OT
+IxNzYzODksLTY1NDQ5MDIyNF19
 -->
