@@ -1,7 +1,7 @@
 # Project Documentation
 
 ## 1. Data Collection
-The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*.
+The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*. Also, it can only be used with Hungarian-language texts/articles.
 
 The data collection process consisted of two main phases, ensuring relevance and a balanced data set.
 
@@ -27,8 +27,7 @@ collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORD
 process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent, 1 = Pro-Government
 ```
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTAwMzI5NSwtNjk1Nzg3OTEzLC04OT
+eyJoaXN0b3J5IjpbMTY3MTYxODg0MywtNjk1Nzg3OTEzLC04OT
 IxNzYzODksLTY1NDQ5MDIyNF19
 -->
