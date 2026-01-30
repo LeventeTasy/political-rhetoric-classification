@@ -10,9 +10,10 @@ I classified the news sources into two categories: *Independent* and *Pro-Govern
 - **Keyword filtering:** I only collected articles whose title or summary contained specific *political keywords* (e.g., Brussels, war, EU, Orban, Peter Magyar). This ensured that the model learned political rhetoric rather than sports news or tabloid gossip.
 - **Duplication filtering:** Before each save, the system checked for existing URLs, thus avoiding distortion of the data set with duplicate content.
 
-### b) Article Scraping and Cleaning
+### b) Article Scraping
+Based on the collected URLs, I downloaded the full text of the articles using the `newspaper3k` library. I recorded the data in CSV format (url, title, text, label), where the label (0 or 1) indicates the category of the news source.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzI5NDM0ODIsLTY5NTc4NzkxMywtOD
-kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjcxODgzMCwtNjk1Nzg3OTEzLC04OT
+IxNzYzODksLTY1NDQ5MDIyNF19
 -->
