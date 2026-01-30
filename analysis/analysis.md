@@ -22,11 +22,12 @@ collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords
 # Collect 200 pro-gov articles  
 collect_news(category_id=1, output_file='../../data/1urls_example.txt', keywords=KEYWORDS, max_items=200)
 ```
-In the `process_articles.py` file 
-```
+In the `process_articles.py` file, we are able to 
+Let's look at an example code of how we can expand articles:
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyOTE3NDU0LC02OTU3ODc5MTMsLTg5Mj
-E3NjM4OSwtNjU0NDkwMjI0XX0=
+eyJoaXN0b3J5IjpbLTEzMjY1NTQ2OCwtNjk1Nzg3OTEzLC04OT
+IxNzYzODksLTY1NDQ5MDIyNF19
 -->
