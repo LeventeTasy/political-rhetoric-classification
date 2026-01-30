@@ -37,9 +37,16 @@ The `spacy_preprocess_pipe` function performs the following steps:
 ### b) Efficiency and Incremental Loading
 - **Batch Processing:** Using SpaCy `nlp.pipe` allows for batch processing of texts, which is significantly faster than calling the model line by line.
 - **Persistent Caching:** I introduced an incremental processing logic. The program checks the URLs already processed in `processed_articles.csv` and only runs new articles through the NLP pipeline. This saves significant computing capacity when expanding the database.
-### 3. Feature Engineering
+## 3. Feature Engineering
+I used a two-step process for the mathematical representation of the texts: *CountVectorizer* to measure frequencies and *TfidfTransformer* for weighting.
+### a) CountVectorizer:
+When configuring CountVectorizer, I made several critical decisions to improve the accuracy of the model:
+- N-gram Range (1, 2): I examined not only individual words (unigrams) but also word combinations (bigrams). This is essential in political rhetoric, where expressions such as "war psychosis" or "dollar left" have a much stronger meaning than their individual words.
 
+- Max Features (2000): I limited the vocabulary to the 2000 most important elements. This helps prevent overfitting and ensures that the model focuses only on the most statistically relevant rhetorical elements.
+
+Min_df / Max_df: I excluded words that appear in more than 90% of the documents (too common, no distinguishing power), thus refining the model's focus.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcxNjcwODgsLTczMjEzMTQ2NywtNj
+eyJoaXN0b3J5IjpbLTE0NDUwODQyMjIsLTczMjEzMTQ2NywtNj
 k1Nzg3OTEzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
 -->
