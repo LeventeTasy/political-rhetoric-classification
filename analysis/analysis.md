@@ -11,9 +11,12 @@ I classified the news sources into two categories: *Independent* and *Pro-Govern
 - **Duplication filtering:** Before each save, the system checked for existing URLs, thus avoiding distortion of the data set with duplicate content.
 
 ### b) Article Scraping
-Based on the collected URLs, I downloaded the full text of the articles using the `newspaper3k` library. I recorded the data in CSV format (url, title, text, label), where the label (0 or 1) indicates the category of the news source.
+Based on the collected URLs, I downloaded the full text of the articles using the `newspaper3k` library. I recorded the data in CSV format (`url`, `title`, `text`, `label`), where the `label` (0 or 1) indicates the category of the news source.
+
+### Usage
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjcxODgzMCwtNjk1Nzg3OTEzLC04OT
-IxNzYzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTEwOTYzODQ2MzYsLTY5NTc4NzkxMywtOD
+kyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
