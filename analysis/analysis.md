@@ -51,19 +51,19 @@ I weighted the raw frequency data using TfidfTransformer to give more weight to 
 ## 4. Rhetorical Analysis from TF-IDF Weights
 
 ### a) Analysis of Independent Rhetoric
-As can be seen in the attached graph, typical of independent press releases, the TOP 20 most frequently used words are mostly verbs and common nouns, with fewer proper nouns among them. These words are also generally characterized by emotional neutrality, with no words describing direct fear or danger appearing among them.
+As can be seen in the attached graph, typical of independent news articles, the TOP 20 most frequently used words are mostly verbs and common nouns, with fewer proper nouns among them. These words are also generally characterized by emotional neutrality, with no words describing direct fear or danger appearing among them.
 ![Independent Tfidf Weights](Independent_Tfidf_Weights.jpg "Independent Tfidf Weights")
 
 ### b) Analysis of Propagandistic Rhetoric
 On the other hand, looking at the top 20 words with the greatest weight in propagandistic rhetoric, we can see that more proper nouns appear here. Péter Magyar's name appears first (presumably, but Magyar also means "Hungarian" in Hungarian), followed immediately by his party, Tisza. This clearly illustrates the current government's thematic focus. In addition, it is also noticeable that bigrams, expressions consisting of two words, have already appeared here, which the algorithm has successfully recognized (Peter Magyar, Viktor Orban, Tisza Party). The government's current thematic focus is clearly visible here: Peter Magyar, Tisza Party, and the Ukrainian-Russian conflict, which is receiving a lot of attention from the government media.
 ![Propagandistic Rhetoric Tfidf Weights](Propagandistic_Rhetoric_Tfidf_Weights.jpg "Propagandistic Rhetoric Tfidf Weights")
 ### c) Lexical Divergence by Tfidf Weights
-The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
+The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. This suggests that while Russia is an unavoidable geopolitical factor on both sides, Ukraine is a specific "target" or "source of danger" in government rhetoric. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
 ![Lexical Divergence by Tfidf Weights](Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDU0NTY3NTgsLTEzMDY3OTI3MjEsLT
-IzMjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5NjAxMzQsNzE0MTkx
-Mzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUsLTExMDgxOTEzNS
-wtNzMyMTMxNDY3LC02OTU3ODc5MTMsLTg5MjE3NjM4OSwtNjU0
-NDkwMjI0XX0=
+eyJoaXN0b3J5IjpbMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMT
+MwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2
+MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NS
+wtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODky
+MTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
