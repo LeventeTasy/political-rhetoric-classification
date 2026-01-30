@@ -45,8 +45,8 @@ When configuring CountVectorizer, I made several critical decisions to improve t
 - **Max Features (2000):** I limited the vocabulary to the 2000 most important elements. This helps prevent overfitting and ensures that the model focuses only on the most statistically relevant rhetorical elements.
 - **Min_df / Max_df:** I excluded words that appear in more than 90% of the documents (too common, no distinguishing power), thus refining the model's focus.
 ### b) TfidfTransformer
-I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the sublinear_tf=True setting, which uses logarithmic scaling ($1 + \log(TF)$). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
+I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the *sublinear_tf=True* setting, which uses logarithmic scaling ($1 + \log(TF)$). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxMjg1ODc5LC03MzIxMzE0NjcsLTY5NT
-c4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbLTExMDgxOTEzNSwtNzMyMTMxNDY3LC02OT
+U3ODc5MTMsLTg5MjE3NjM4OSwtNjU0NDkwMjI0XX0=
 -->
