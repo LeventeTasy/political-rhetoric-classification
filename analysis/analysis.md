@@ -1,6 +1,7 @@
 # Analysis
 
-## Getting the Data
+## 1. Data Collection
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTE4NDU1ODc5MDIsLTY1NDQ5MDIyNF19
 -->
