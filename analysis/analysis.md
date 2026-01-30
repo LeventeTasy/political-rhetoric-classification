@@ -14,19 +14,19 @@ I classified the news sources into two categories: *Independent* and *Pro-Govern
 Based on the collected URLs, I downloaded the full text of the articles using the `newspaper3k` library. I recorded the data in CSV format (`url`, `title`, `text`, `label`), where the `label` (0 or 1) indicates the category of the news source.
 
 ### Usage
-In the collect_urls.py file, we can easily save the URLs from the RSS feeds, using this code:
+In the `collect_urls.py` file, we can easily save the URLs from the RSS feeds, using this code:
 ```python
-
 # Collect 200 independent articles  
 collect_news(category_id=0, output_file='../../data/0urls_example.txt', keywords=KEYWORDS, max_items=200)  
   
 # Collect 200 pro-gov articles  
 collect_news(category_id=1, output_file='../../data/1urls_example.txt', keywords=KEYWORDS, max_items=200)
 ```
+In the `process_articles.py` file 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0MDc3MDU0LC02OTU3ODc5MTMsLTg5Mj
+eyJoaXN0b3J5IjpbNDQyOTE3NDU0LC02OTU3ODc5MTMsLTg5Mj
 E3NjM4OSwtNjU0NDkwMjI0XX0=
 -->
