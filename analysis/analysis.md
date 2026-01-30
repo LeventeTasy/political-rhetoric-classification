@@ -37,7 +37,8 @@ The `spacy_preprocess_pipe` function performs the following steps:
 ### b) Efficiency and Incremental Loading
 - **Batch Processing:** Using SpaCy `nlp.pipe` allows for batch processing of texts, which is significantly faster than calling the model line by line.
 - **Persistent Caching:** I introduced an incremental processing logic. The program checks the URLs already processed in `processed_articles.csv` and only runs new articles through the NLP pipeline. This saves significant computing capacity when expanding the database.
+### 3. Using CountVectorizer and TfidfTransformer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMjEzMTQ2NywtNjk1Nzg3OTEzLC04OT
-IxNzYzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTM4Mjk2NzA4NCwtNzMyMTMxNDY3LC02OT
+U3ODc5MTMsLTg5MjE3NjM4OSwtNjU0NDkwMjI0XX0=
 -->
