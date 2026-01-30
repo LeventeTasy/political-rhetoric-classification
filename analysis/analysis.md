@@ -41,10 +41,12 @@ The `spacy_preprocess_pipe` function performs the following steps:
 I used a two-step process for the mathematical representation of the texts: *CountVectorizer* to measure frequencies and *TfidfTransformer* for weighting.
 ### a) CountVectorizer:
 When configuring CountVectorizer, I made several critical decisions to improve the accuracy of the model:
-- **N-gram Range (1, 2):** I examined not only individual words (unigrams) but also word combinations (bigrams). This is essential in political rhetoric, where expressions such as "war psychosis" or "European Union" have a much stronger meaning than their individual words.
+- **N-gram Range (1, 2):** I examined not only individual words (unigrams) but also word combinations (bigrams). This is essential in political rhetoric, where expressions such as "Peter Magyar" or "European Union" have a much stronger meaning than their individual words.
 - **Max Features (2000):** I limited the vocabulary to the 2000 most important elements. This helps prevent overfitting and ensures that the model focuses only on the most statistically relevant rhetorical elements.
 - **Min_df / Max_df:** I excluded words that appear in more than 90% of the documents (too common, no distinguishing power), thus refining the model's focus.
+### b) TfidfTransformer
+I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the sublinear_tf=True setting, which uses logarithmic scaling ($1 + \log(TF)$). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzEyMTAwMCwtNzMyMTMxNDY3LC02OT
-U3ODc5MTMsLTg5MjE3NjM4OSwtNjU0NDkwMjI0XX0=
+eyJoaXN0b3J5IjpbNjIxMjg1ODc5LC03MzIxMzE0NjcsLTY5NT
+c4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
