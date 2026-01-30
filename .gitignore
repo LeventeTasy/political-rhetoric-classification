@@ -208,5 +208,5 @@ __marimo__/
 
 data/0urls.txt
 data/1urls.txt
-data/preprocessed_data.csv
-data/propaganda_articles.csv
+data/preprocessed_articles.csv
+data/articles.csv
