@@ -3,6 +3,8 @@
 ## Overview
 This project presents a machine learning pipeline specifically designed to detect and classify political rhetoric and potentially manipulative content in Hungarian-language news articles. Given the complex linguistic features of Hungarian, the project utilizes an ensemble approach to distinguish between **neutral reporting** and **propagandistic discourse**.
 
+*For detailed methodology and rhetorical analysis, please refer to the [**Full Documentation**](DOCUMENTATION.md).*
+
 ## Methodology
 The core of the system is a **Voting Classifier** ensemble that leverages two distinct mathematical approaches to text classification:
 
@@ -10,21 +12,20 @@ The core of the system is a **Voting Classifier** ensemble that leverages two di
 * **GradientBoostingClassifier:** Captures non-linear relationships and nuanced patterns in the rhetoric that linear models might miss.
 
 ### Data & Preprocessing
-- **Dataset Size:** Trained on a curated corpus of **~1,600 Hungarian news articles**.
+- **Dataset Size:** Trained on a curated corpus of **~1,700 Hungarian news articles**.
 - **Collection Period:** Data was collected between **December 2025 and January 2026**.
-- **Preprocessing:** - Custom Hungarian tokenizer.
+- **Preprocessing:**
   - Stopword removal (standard Hungarian set).
   - TF-IDF vectorization with n-gram support.
-- **Output:** The model provides a binary label (0/1) and a calibrated probability score.
 
 ## Performance
 The model achieves a robust **89% overall accuracy**. Below is the detailed classification report:
 
 | Metric | Class 0 (Neutral rhetoric) | Class 1 (Propagandistic rhetoric) | Weighted Avg |
 | :--- | :--- | :--- | :--- |
-| **Precision** | 0.87 | 0.91 | 0.89 |
-| **Recall** | 0.92 | 0.86 | 0.89 |
-| **F1-Score** | 0.89 | 0.88 | 0.89 |
+| **Precision** | 0.85 | 0.94 | 0.89 |
+| **Recall** | 0.95 | 0.83 | 0.89 |
+| **F1-Score** | 0.90 | 0.88 | 0.89 |
 | **Accuracy** | | | **0.89** |
 
 > **Note:** The high precision for Class 1 (0.91) indicates that when the model flags an article as propaganda, it is correct in 91% of the cases, minimizing "false accusations."
@@ -37,6 +38,13 @@ git clone https://github.com/LeventeTasy/political-rhetoric-classification
 cd political-rhetoric-classifier
 pip install -r requirements.txt
 ```
+
+### Project Structure
+- `data/`: Persistent storage for URLs collected from RSS feeds, raw article content, and preprocessed data caches.
+- `experiments/`: Research sandbox containing the implementation and testing of individual models, such as the Decision Tree or Random Forest.
+- `models/`: Directory for serialized (.joblib) trained models and the final ensemble pipeline.
+- `source/ipynb/`: Interactive Jupyter notebooks containing the source code for building and evaluating the main ensemble model.
+- `source/py/`: The location of the main modular executable scripts, including the data collector (collect_urls.py), the processor (process_articles.py), and the (classifier.py).
 
 ### Usage
 The pipeline is designed to be flexible, accepting both URLs (for automatic scraping) and raw text.
@@ -69,5 +77,5 @@ This tool is intended for academic research purposes only.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 
 
-Created by: 
+Project created by: 
 Levente Tasy
