@@ -1,6 +1,6 @@
 # Project Documentation
 
-### [1. Data Collection](1.-data-collection-1)
+### [1. Data Collection](DOCUMENTATION.md#1-data-collection-1)
 
 ## 1. Data Collection
 The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*. Also, it can only be used with Hungarian-language texts/articles.
@@ -139,11 +139,11 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjYxMDcwNiwxNDMzMzkwODMyLC0xMD
-kxMDA4MzE2LC0xODExMzMyNTcxLC0xMjMzNzAyMjM1LC0xNzgx
-MjQxODMzLDIwNDgxMTk5ODIsLTE0NTQyODI5OTIsLTM4MzUzNz
-k0NiwxNjUxNzAwMTEzLDk3NjMxMTU0NSwxNTg3ODQ0ODMxLC0x
-NzQyMjQ4OTczLC0zMDcyMzkwNDQsMTg3ODAzNzk0MSwyMDI3MT
-YzNzU3LC0xODAxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3
-NTgsLTEzMDY3OTI3MjFdfQ==
+eyJoaXN0b3J5IjpbOTU1MTQzMTgyLDE0MzMzOTA4MzIsLTEwOT
+EwMDgzMTYsLTE4MTEzMzI1NzEsLTEyMzM3MDIyMzUsLTE3ODEy
+NDE4MzMsMjA0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMzgzNTM3OT
+Q2LDE2NTE3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3
+NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNj
+M3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1
+OCwtMTMwNjc5MjcyMV19
 -->
