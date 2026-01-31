@@ -3,7 +3,7 @@
 ## Overview
 This project presents a machine learning pipeline specifically designed to detect and classify political rhetoric and potentially manipulative content in Hungarian-language news articles. Given the complex linguistic features of Hungarian, the project utilizes an ensemble approach to distinguish between **neutral reporting** and **propagandistic discourse**.
 
-*For detailed methodology, hyperparameter tuning, and rhetorical analysis, please refer to the [**Full Documentation**](DOCUMENTATION.md).*
+*For detailed methodology and rhetorical analysis, please refer to the [**Full Documentation**](DOCUMENTATION.md).*
 
 ## Methodology
 The core of the system is a **Voting Classifier** ensemble that leverages two distinct mathematical approaches to text classification:
