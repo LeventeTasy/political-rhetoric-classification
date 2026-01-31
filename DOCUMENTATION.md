@@ -60,11 +60,13 @@ On the other hand, looking at the top 20 words with the greatest weight in propa
 ### c) Lexical Divergence by Tfidf Weights
 The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. This suggests that while Russia is an unavoidable geopolitical factor on both sides, Ukraine is a specific "target" or "source of danger" in government rhetoric. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
 ![Lexical Divergence by Tfidf Weights](plots/Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
+## 5. Final Ensemble Model
+For this project, an ensemble model was selected, combining 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMT
-Y1ODEzMzgyLC0xMzA1NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3
-MjA1NzUsMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcxNDE5MTM4Ni
-wtMTI3NDM0MTU2NywtODYwMjE5OTQ1LC0xMTA4MTkxMzUsLTcz
-MjEzMTQ2NywtNjk1Nzg3OTEzLC04OTIxNzYzODksLTY1NDQ5MD
-IyNF19
+eyJoaXN0b3J5IjpbLTExMjg4NDEyODEsMjAyNzE2Mzc1NywtMT
+gwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2NzU4LC0xMzA2
+NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OCwxNTE0OTYwMT
+M0LDcxNDE5MTM4NiwtMTI3NDM0MTU2NywtODYwMjE5OTQ1LC0x
+MTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3OTEzLC04OTIxNz
+YzODksLTY1NDQ5MDIyNF19
 -->
