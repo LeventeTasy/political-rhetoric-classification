@@ -102,12 +102,19 @@ This model is easy to understand and its operation can be traced back, as it is 
 
 </div>
 
+Another characteristic of this model is that it gave more false alarms to propagandistic articles, i.e., it repeatedly labeled independent articles as propagandistic. This model was more confident in its assessment of independent articles, so it labeled many propagandistic articles as independent.
+
+<div align="center">
+
+![The Confusion Matric of the Decision Tree Model](plots/dt_cm.png "The Confusion Matric of the Decision Tree Model")
+
+</div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzUzNzk0NiwxNjUxNzAwMTEzLDk3Nj
-MxMTU0NSwxNTg3ODQ0ODMxLC0xNzQyMjQ4OTczLC0zMDcyMzkw
-NDQsMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC0xODAxNTM2MDIyLD
-ExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEzMDY3OTI3MjEsLTIz
-MjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5NjAxMzQsNzE0MTkxMz
-g2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUsLTExMDgxOTEzNSwt
-NzMyMTMxNDY3XX0=
+eyJoaXN0b3J5IjpbMjAxNTAwMzYzNCwtMzgzNTM3OTQ2LDE2NT
+E3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5
+NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLT
+E4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMw
+Njc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MD
+EzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwt
+MTEwODE5MTM1XX0=
 -->
