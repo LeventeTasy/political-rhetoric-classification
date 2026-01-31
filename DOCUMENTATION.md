@@ -77,7 +77,7 @@ When configuring CountVectorizer, I made several critical decisions to improve t
 I weighted the raw frequency data using TfidfTransformer to give more weight to less frequent but more informative words. I used the *sublinear_tf=True* setting, which uses logarithmic scaling (1 + log(TF)). This prevents a word from becoming overly dominant simply because it is repeated many times in an article (for example, in a long list).
 
 ## 4. Rhetorical Analysis from TF-IDF Weights
-> **Note:** The most frequently used word in both groups was *NUM*. For stylistic reasons, I deleted it from the diagrams and translated the words from Hungarian into English for clarity.
+> **Note:** The most weighted word in both groups was *'NUM'*. For stylistic reasons, I deleted it from the diagrams and translated the words from Hungarian into English for clarity.
 
 ### a) Analysis of Independent Rhetoric
 As can be seen in the attached graph, typical of independent news articles, the TOP 20 most frequently used words are mostly verbs and common nouns, with fewer proper nouns among them. These words are also generally characterized by emotional neutrality, with no words describing direct fear or danger appearing among them.
