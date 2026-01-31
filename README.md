@@ -77,5 +77,5 @@ This tool is intended for academic research purposes only.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 
 
-Created by: 
+Project created by: 
 Levente Tasy
