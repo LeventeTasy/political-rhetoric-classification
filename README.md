@@ -17,7 +17,6 @@ The core of the system is a **Voting Classifier** ensemble that leverages two di
 - **Preprocessing:**
   - Stopword removal (standard Hungarian set).
   - TF-IDF vectorization with n-gram support.
-- **Output:** The model provides a binary label (0/1) and a calibrated probability score.
 
 ## Performance
 The model achieves a robust **89% overall accuracy**. Below is the detailed classification report:
