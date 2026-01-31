@@ -65,11 +65,12 @@ For this project, an ensemble model was selected, combining a LinearSVC and a Gr
 LinearSVC was chosen for its strong performance in high-dimensional sparse text representations, while Gradien Boosting complements it by capturing non-linear interactions between feaures. This model was then saved in a pipeline named `ensemble_pipeline_id1_0_89.joblib`.
 
 ![The structure of the model](plots/ensemble_modell.png "The structure of the model ")
+The ensemble approach was motivated by the observation that different models exhibit complementary error patterns. Wheile LinearSVC tends to be conservative in pre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Mzg3NzE5NiwxODc4MDM3OTQxLDIwMj
-cxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1
-Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OT
-gsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2
-MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5NTc4Nz
-kxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbMjcyMzA4MjYwLDE4NzgwMzc5NDEsMjAyNz
+E2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2
+NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OC
+wxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MTU2NywtODYw
+MjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3OT
+EzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
 -->
