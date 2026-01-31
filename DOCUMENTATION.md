@@ -73,15 +73,18 @@ precision	recall f1-score support
 accuracy 0.89 216
 macro avg 0.89 0.89 0.89 216
 weighted avg 0.89 0.89 0.89 216
-|precision|recall|
-|--|--|
-|  |  |
+|          | precision | recall | f1-score | support |
+|----------|-----------|--------|----------|---------|
+| 0        | 0.85      | 0.95   | 0.90     | 111     |
+| 1        | 0.94      | 0.83   | 0.88     | 105     |
+| accuracy |           |        | 0.89     | 216     |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMj
-cxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1
-Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OT
-gsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2
-MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5NTc4Nz
-kxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbLTIzMzI3OTg3OCwtMzA3MjM5MDQ0LDE4Nz
+gwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEz
+MzgyLC0xMzA1NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1Nz
+UsMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3
+NDM0MTU2NywtODYwMjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMT
+Q2NywtNjk1Nzg3OTEzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
+
 -->
