@@ -110,9 +110,19 @@ Another characteristic of this model is that it gave more false alarms to propag
 
 </div>
 
-### b) 
+### b) Random Forest
+<div align="center">
+
+|          | precision | recall | f1-score | support |
+|----------|-----------|--------|----------|---------|
+| 0        | 0.75      | 0.77   | 0.76     | 130     |
+| 1        | 0.76      | 0.74   | 0.75     | 126     |
+| accuracy |           |        | 0.75     | 256     |
+
+</div>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODY4ODM1NSwtMTQ1NDI4Mjk5MiwtMz
+eyJoaXN0b3J5IjpbMjA0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMz
 gzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4
 MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLD
 IwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMw
