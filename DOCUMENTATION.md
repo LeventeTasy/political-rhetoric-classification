@@ -1,13 +1,17 @@
 # Project Documentation
 
-### [1. Data Collection](DOCUMENTATION.md#1-data-collection-1)
-#### [a) URL Discovery via RSS Feeds](DOCUMENTATION.md#a-url-discovery-via-rss-feeds)
-#### [B) Article Scraping](DOCUMENTATION.md#b-article-scraping)
-### [2. Preprocessing](DOCUMENTATION.md#2-preprocessing)
-### [3. Feature Engineering](DOCUMENTATION.md#3-feature-engineering)
-#### [a) CountVectorizer](DOCUMENTATION.md#a-countvectorizer)
-#### [B) TfidfTransformer](DOCUMENTATION.md#b-tfidftransformer)
-### [4. Rhetorical Analysis from TF-IDF Weights](DOCUMENTATION.md#4-rhetorical-analysis-from-tf-idf-weights)
+ - [1. Data Collection](DOCUMENTATION.md#1-data-collection-1) 
+ - [a) URL
+   Discovery via RSS
+   Feeds](DOCUMENTATION.md#a-url-discovery-via-rss-feeds) 
+[B) Article
+   Scraping](DOCUMENTATION.md#b-article-scraping) [2.
+   Preprocessing](DOCUMENTATION.md#2-preprocessing) [3. Feature
+   Engineering](DOCUMENTATION.md#3-feature-engineering) [a)
+   CountVectorizer](DOCUMENTATION.md#a-countvectorizer) [B)
+   TfidfTransformer](DOCUMENTATION.md#b-tfidftransformer) [4. Rhetorical
+   Analysis from TF-IDF
+   Weights](DOCUMENTATION.md#4-rhetorical-analysis-from-tf-idf-weights)
 
 ## 1. Data Collection
 The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*. Also, it can only be used with Hungarian-language texts/articles.
@@ -146,11 +150,11 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDgyNDQ3Nyw5NTUxNDMxODIsMTQzMz
-M5MDgzMiwtMTA5MTAwODMxNiwtMTgxMTMzMjU3MSwtMTIzMzcw
-MjIzNSwtMTc4MTI0MTgzMywyMDQ4MTE5OTgyLC0xNDU0MjgyOT
-kyLC0zODM1Mzc5NDYsMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4
-Nzg0NDgzMSwtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMz
-c5NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgy
-LC0xMzA1NDU2NzU4XX0=
+eyJoaXN0b3J5IjpbNDYwMjkwMjc5LDE2NTA4MjQ0NzcsOTU1MT
+QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
+NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
+wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
+MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOT
+A0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIs
+MTE2NTgxMzM4Ml19
 -->
