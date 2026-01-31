@@ -40,6 +40,13 @@ cd political-rhetoric-classifier
 pip install -r requirements.txt
 ```
 
+### Project Structure
+- `data/`: Persistent storage for URLs collected from RSS feeds, raw article content, and preprocessed data caches.
+- `experiments/`: Research sandbox containing the implementation and testing of individual models, such as the Decision Tree or Random Forest.
+- `models/`: Directory for serialized (.joblib) trained models and the final ensemble pipeline.
+- `source/ipynb/`: Interactive Jupyter notebooks containing the source code for building and evaluating the main ensemble model.
+- `source/py/`: The location of the main modular executable scripts, including the data collector (collect_urls.py), the processor (process_articles.py), and the (classifier.py).
+
 ### Usage
 The pipeline is designed to be flexible, accepting both URLs (for automatic scraping) and raw text.
 ```python
