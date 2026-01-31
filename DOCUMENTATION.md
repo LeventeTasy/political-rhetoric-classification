@@ -6,12 +6,15 @@
    Feeds](DOCUMENTATION.md#a-url-discovery-via-rss-feeds) 
 	 - [B) Article
    Scraping](DOCUMENTATION.md#b-article-scraping)
-
- [2.
-   Preprocessing](DOCUMENTATION.md#2-preprocessing) [3. Feature
-   Engineering](DOCUMENTATION.md#3-feature-engineering) [a)
-   CountVectorizer](DOCUMENTATION.md#a-countvectorizer) [B)
-   TfidfTransformer](DOCUMENTATION.md#b-tfidftransformer) [4. Rhetorical
+ -  [2.
+   Preprocessing](DOCUMENTATION.md#2-preprocessing)
+ - [3. Feature
+   Engineering](DOCUMENTATION.md#3-feature-engineering)
+	 - [a)
+   CountVectorizer](DOCUMENTATION.md#a-countvectorizer)
+	 - [B)
+   TfidfTransformer](DOCUMENTATION.md#b-tfidftransformer)
+ -  [4. Rhetorical
    Analysis from TF-IDF
    Weights](DOCUMENTATION.md#4-rhetorical-analysis-from-tf-idf-weights)
 
@@ -152,11 +155,11 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTEzMzQxMDIsMTY1MDgyNDQ3Nyw5NT
-UxNDMxODIsMTQzMzM5MDgzMiwtMTA5MTAwODMxNiwtMTgxMTMz
-MjU3MSwtMTIzMzcwMjIzNSwtMTc4MTI0MTgzMywyMDQ4MTE5OT
-gyLC0xNDU0MjgyOTkyLC0zODM1Mzc5NDYsMTY1MTcwMDExMyw5
-NzYzMTE1NDUsMTU4Nzg0NDgzMSwtMTc0MjI0ODk3MywtMzA3Mj
-M5MDQ0LDE4NzgwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAy
-MiwxMTY1ODEzMzgyXX0=
+eyJoaXN0b3J5IjpbNDY4NzcyMDU1LDE2NTA4MjQ0NzcsOTU1MT
+QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
+NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
+wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
+MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOT
+A0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIs
+MTE2NTgxMzM4Ml19
 -->
