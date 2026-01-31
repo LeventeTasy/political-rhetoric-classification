@@ -121,18 +121,18 @@ While a single decision tree tends to get lost in the details (overfitting), Ran
 | accuracy |           |        | 0.75     | 256     |
 
 </div>
-
+Here, it can be seen from the data and the confusion matrix that it performed better than the previous, simple Decision Tree model. It flagged fewer independent articles as propagandistic, and in fact, it is now balanced, making approximately the same number of errors in both groups, as the precision and recall values for both groups are close to each other. However, it would be correct here if the label precision value containing propagandistic rhetoric were higher, as this would make the model more reliable and ethical.
 <div align="center">
 
 ![The Confusion Matric of the Random ForestModel](plots/rf_cm.png "The Confusion Matric of the Random Forest Model")
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMj
-A0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3
-MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5Nz
-MsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4
-MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNj
-c5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEz
-NCw3MTQxOTEzODZdfQ==
+eyJoaXN0b3J5IjpbMTI1NTQzNTQxNCwtMTIzMzcwMjIzNSwtMT
+c4MTI0MTgzMywyMDQ4MTE5OTgyLC0xNDU0MjgyOTkyLC0zODM1
+Mzc5NDYsMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4Nzg0NDgzMS
+wtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMzc5NDEsMjAy
+NzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1ND
+U2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5
+OCwxNTE0OTYwMTM0XX0=
 -->
