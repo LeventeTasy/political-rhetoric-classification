@@ -74,10 +74,10 @@ The ensemble approach was motivated by the observation that different models exh
 | accuracy |           |        | 0.89     | 216     |
 
 The model achieved a strong accuracy of 0.89. The high precision for the 'propagandistic' label indicates a conservative classification strategy, minimizing false accusations (False Positives). Consequently, the model exhibits high recall for the 'independent' label, ensuring that non-manipulative content is rarely misclassified. While this approach might result in some propaganda remaining undetected, it prioritizes the avoidance of 'negative criticism' or unjust labeling of independent outlets.
-![The ](plots/ensemble_cm.png "Lexical Divergence by Tfidf Weights")
+![The Confusion Matric of the Ensemble Model](plots/ensemble_cm.png "The Confusion Matric of the Ensemble Model")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTkzMjEwNywtMTc0MjI0ODk3MywtMz
+eyJoaXN0b3J5IjpbMTU4Nzg0NDgzMSwtMTc0MjI0ODk3MywtMz
 A3MjM5MDQ0LDE4NzgwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMTUz
 NjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2NzU4LC0xMzA2NzkyNz
 IxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcx
