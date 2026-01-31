@@ -66,9 +66,10 @@ LinearSVC was chosen for its strong performance in high-dimensional sparse text 
 
 ![The structure of the model](plots/ensemble_modell.png "The structure of the model ")
 The ensemble approach was motivated by the observation that different models exhibit complementary error patterns. Wheile LinearSVC tends to be conservative in predicting propagandistic rhetoric, Gradient Boosting impoves recall by identifying subtler stylistic rules.
+### Results
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTgyNzM5NiwxODc4MDM3OTQxLDIwMj
+eyJoaXN0b3J5IjpbLTQ4OTUwNzE1NSwxODc4MDM3OTQxLDIwMj
 cxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1
 Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OT
 gsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2
