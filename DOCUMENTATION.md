@@ -91,12 +91,22 @@ The model achieved a strong accuracy of 0.89. The high precision for the 'propag
 
 ## 6. Other experimental models
 ### a) Decision Tree
+<div align="center">
+
+|          | precision | recall | f1-score | support |
+|----------|-----------|--------|----------|---------|
+| 0        | 0.75      | 0.45   | 0.56     | 102     |
+| 1        | 0.94      | 0.83   | 0.88     | 105     |
+| accuracy |           |        | 0.89     | 216     |
+
+</div>
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTcxODQ2MCw5NzYzMTE1NDUsMTU4Nz
-g0NDgzMSwtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMzc5
-NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC
-0xMzA1NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3
-MzUzNjk5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MT
-U2NywtODYwMjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2Nywt
-Njk1Nzg3OTEzXX0=
+eyJoaXN0b3J5IjpbLTE0NzcxODgzMjMsOTc2MzExNTQ1LDE1OD
+c4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3
+OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4Mi
+wtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0
+NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzND
+E1NjcsLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0Njcs
+LTY5NTc4NzkxM119
 -->
