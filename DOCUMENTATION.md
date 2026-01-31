@@ -4,7 +4,7 @@
 #### [a) URL Discovery via RSS Feeds](DOCUMENTATION.md#a-url-discovery-via-rss-feeds)
 #### [B) Article Scraping](DOCUMENTATION.md#b-article-scraping)
 ### [2. Preprocessing](DOCUMENTATION.md#2-preprocessing)
-### [3. Feature Engineering](DOCUMENTATION.md##3-feature-engineering)
+### [3. Feature Engineering](DOCUMENTATION.md#3-feature-engineering)
 
 
 ## 1. Data Collection
@@ -144,7 +144,7 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3ODA0MTUxLDk1NTE0MzE4MiwxNDMzMz
+eyJoaXN0b3J5IjpbNjY2NjYwNzQwLDk1NTE0MzE4MiwxNDMzMz
 kwODMyLC0xMDkxMDA4MzE2LC0xODExMzMyNTcxLC0xMjMzNzAy
 MjM1LC0xNzgxMjQxODMzLDIwNDgxMTk5ODIsLTE0NTQyODI5OT
 IsLTM4MzUzNzk0NiwxNjUxNzAwMTEzLDk3NjMxMTU0NSwxNTg3
