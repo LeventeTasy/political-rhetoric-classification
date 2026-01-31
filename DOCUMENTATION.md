@@ -71,7 +71,7 @@ LinearSVC was chosen for its strong performance in high-dimensional sparse text 
 The ensemble approach was motivated by the observation that different models exhibit complementary error patterns. Wheile LinearSVC tends to be conservative in predicting propagandistic rhetoric, Gradient Boosting impoves recall by identifying subtler stylistic rules.
 
 ### Results
-The model achieved a strong accuracy of 0.89.
+The model achieved a strong accuracy of 0.89. This means that it performed better than the baseline model, which achieved an accuracy of 0.51. We can therefore conclude that the model did indeed learn from the data and that texts containing propagandistic rhetoric have characteristics that distinguish them from the style of the independent press.
 <div align="center">
 
 |          | precision | recall | f1-score | support |
@@ -110,11 +110,11 @@ Another characteristic of this model is that it gave more false alarms to propag
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQyODI5OTIsLTM4MzUzNzk0NiwxNj
-UxNzAwMTEzLDk3NjMxMTU0NSwxNTg3ODQ0ODMxLC0xNzQyMjQ4
-OTczLC0zMDcyMzkwNDQsMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC
-0xODAxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEz
-MDY3OTI3MjEsLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5Nj
-AxMzQsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUs
-LTExMDgxOTEzNV19
+eyJoaXN0b3J5IjpbOTk2NjA3NDQ5LC0xNDU0MjgyOTkyLC0zOD
+M1Mzc5NDYsMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4Nzg0NDgz
+MSwtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMzc5NDEsMj
+AyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1
+NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNj
+k5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MTU2Nywt
+ODYwMjE5OTQ1XX0=
 -->
