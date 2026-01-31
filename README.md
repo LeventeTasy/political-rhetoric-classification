@@ -19,7 +19,7 @@ The core of the system is a **Voting Classifier** ensemble that leverages two di
   - TF-IDF vectorization with n-gram support.
 
 ## Performance
-The model achieves a robust **89% overall accuracy**. Below is the detailed classification report:
+The model achieves a **89% overall accuracy**. Below is the detailed classification report:
 
 | Metric | Class 0 (Neutral rhetoric) | Class 1 (Propagandistic rhetoric) | Weighted Avg |
 | :--- | :--- | :--- | :--- |
