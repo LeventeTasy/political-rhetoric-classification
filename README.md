@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ### Project Structure
-- `data/`: Persistent storage for URLs collected from RSS feeds, raw article content, and preprocessed data caches. *Note:* For repository size and privacy reasons, only sample datasets are provided here.
+- `data/`: Persistent storage for URLs collected from RSS feeds, raw article content, and preprocessed data caches. *Note: For repository size and privacy reasons, only sample datasets are provided here.*
 - `experiments/`: Research sandbox containing the implementation and testing of individual models, such as the Decision Tree or Random Forest.
 - `models/`: Directory for serialized (.joblib) trained models and the final ensemble pipeline.
 - `source/ipynb/`: Interactive Jupyter notebooks containing the source code for building and evaluating the main ensemble model.
