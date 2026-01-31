@@ -109,12 +109,14 @@ Another characteristic of this model is that it gave more false alarms to propag
 ![The Confusion Matric of the Decision Tree Model](plots/dt_cm.png "The Confusion Matric of the Decision Tree Model")
 
 </div>
+
+### b) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2NjA3NDQ5LC0xNDU0MjgyOTkyLC0zOD
-M1Mzc5NDYsMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4Nzg0NDgz
-MSwtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMzc5NDEsMj
-AyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1
-NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNj
-k5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MTU2Nywt
-ODYwMjE5OTQ1XX0=
+eyJoaXN0b3J5IjpbMTEzODY4ODM1NSwtMTQ1NDI4Mjk5MiwtMz
+gzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4
+MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLD
+IwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMw
+NTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1Mz
+Y5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1Njcs
+LTg2MDIxOTk0NV19
 -->
