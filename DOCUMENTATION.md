@@ -23,6 +23,7 @@
 	- [B) Analysis of Propagandistic Rhetoric](DOCUMENTATION.md#b-analysis-of-propagandistic-rhetoric)
 	- [C) Lexical Divergence by Tfidf Weights ](DOCUMENTATION.md#c-lexical-divergence-by-tfidf-weights)
 - [5. Final Ensemble Model](DOCUMENTATION.md#5-final-ensemble-model)
+- [6. Other Experimental Models](DOCUMENTATION.md#6-other-experimental-models)
 
 ## 1. Data Collection
 The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*. Also, it can only be used with Hungarian-language texts/articles.
@@ -161,11 +162,11 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjU1MjY5LDE2NTA4MjQ0NzcsOTU1MT
-QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
-NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
-wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
-MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOT
-A0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIs
-MTE2NTgxMzM4Ml19
+eyJoaXN0b3J5IjpbMTc4ODE2MDEwNiwxNjUwODI0NDc3LDk1NT
+E0MzE4MiwxNDMzMzkwODMyLC0xMDkxMDA4MzE2LC0xODExMzMy
+NTcxLC0xMjMzNzAyMjM1LC0xNzgxMjQxODMzLDIwNDgxMTk5OD
+IsLTE0NTQyODI5OTIsLTM4MzUzNzk0NiwxNjUxNzAwMTEzLDk3
+NjMxMTU0NSwxNTg3ODQ0ODMxLC0xNzQyMjQ4OTczLC0zMDcyMz
+kwNDQsMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC0xODAxNTM2MDIy
+LDExNjU4MTMzODJdfQ==
 -->
