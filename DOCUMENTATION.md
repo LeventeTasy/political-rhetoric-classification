@@ -18,13 +18,12 @@
  -  [4. Rhetorical
    Analysis from TF-IDF
    Weights](DOCUMENTATION.md#4-rhetorical-analysis-from-tf-idf-weights)
-   
-	 - [a) Analysis of Independent Rhetoric](DOCUMENTATION.md#a-analysis-of-independent-rhetoric)
+	- [a) Analysis of Independent Rhetoric](DOCUMENTATION.md#a-analysis-of-independent-rhetoric)
 	- [B) Analysis of Propagandistic Rhetoric](DOCUMENTATION.md#b-analysis-of-propagandistic-rhetoric)
 	- [C) Lexical Divergence by Tfidf Weights ](DOCUMENTATION.md#c-lexical-divergence-by-tfidf-weights)
  - [5. Final Ensemble Model](DOCUMENTATION.md#5-final-ensemble-model)
  - [6. Other Experimental Models](DOCUMENTATION.md#6-other-experimental-models)
- - [a) Decision Tree](DOCUMENTATION.md#a-decision-tree)
+ 	- [a) Decision Tree](DOCUMENTATION.md#a-decision-tree)
 	- [B) Random Forest](DOCUMENTATION.md#b-random-forest)
  - [7. Future Scalibility](DOCUMENTATION.md#7-future-scalability)
  - [8. Ethical Considerations & Disclaimer](DOCUMENTATION.md#8-ethical-considerations--disclaimer)
