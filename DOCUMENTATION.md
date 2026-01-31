@@ -111,6 +111,7 @@ Another characteristic of this model is that it gave more false alarms to propag
 </div>
 
 ### b) Random Forest
+While a single decision tree tends to get lost in the details (overfitting), Random Forest averages the opinions of many trees, thus providing a much more stable result; the model will not focus on the unique noise of a single article. It generalizes much better on the test data. This model can accurately tell which words contributed most to the decision globally, at the forest level. 
 <div align="center">
 
 |          | precision | recall | f1-score | support |
@@ -122,11 +123,11 @@ Another characteristic of this model is that it gave more false alarms to propag
 </div>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMz
-gzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4
-MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLD
-IwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMw
-NTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1Mz
-Y5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1Njcs
-LTg2MDIxOTk0NV19
+eyJoaXN0b3J5IjpbLTE3ODEyNDE4MzMsMjA0ODExOTk4MiwtMT
+Q1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzEx
+NTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NC
+wxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2
+NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNz
+IwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYs
+LTEyNzQzNDE1NjddfQ==
 -->
