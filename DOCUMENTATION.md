@@ -130,12 +130,18 @@ Here, it can be seen from the data and the confusion matrix that it performed be
 
 ## 7. Future Scalability
 Using the attached .py files, it is also possible to expand the model's dataset in order to increase its potential performance. In addition, with a small modification, it is also possible to use the model for other languages in the preprocessing process. Furthermore, the next stage of the project will be to incorporate parliamentary speeches into the model, enabling it to recognize many more rhetorical patterns.
+
+## 8. Ethical Considerations & Disclaimer
+This tool is intended for academic research purposes only.
+
+- **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
+- **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTEwMDgzMTYsLTE4MTEzMzI1NzEsLT
-EyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4MiwtMTQ1
-NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzExNT
-Q1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwx
-ODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NT
-gxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIw
-NTc1LDE0NzM1MzY5OThdfQ==
+eyJoaXN0b3J5IjpbMTQzMzM5MDgzMiwtMTA5MTAwODMxNiwtMT
+gxMTMzMjU3MSwtMTIzMzcwMjIzNSwtMTc4MTI0MTgzMywyMDQ4
+MTE5OTgyLC0xNDU0MjgyOTkyLC0zODM1Mzc5NDYsMTY1MTcwMD
+ExMyw5NzYzMTE1NDUsMTU4Nzg0NDgzMSwtMTc0MjI0ODk3Mywt
+MzA3MjM5MDQ0LDE4NzgwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMT
+UzNjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2NzU4LC0xMzA2Nzky
+NzIxLC0yMzI3MjA1NzVdfQ==
 -->
