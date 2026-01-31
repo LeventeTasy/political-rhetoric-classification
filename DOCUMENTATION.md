@@ -52,7 +52,7 @@ I weighted the raw frequency data using TfidfTransformer to give more weight to 
 
 ### a) Analysis of Independent Rhetoric
 As can be seen in the attached graph, typical of independent news articles, the TOP 20 most frequently used words are mostly verbs and common nouns, with fewer proper nouns among them. These words are also generally characterized by emotional neutrality, with no words describing direct fear or danger appearing among them.
-![Independent Tfidf Weights](Independent_Tfidf_Weights.jpg "Independent Tfidf Weights")
+![Independent Tfidf Weights](plIndependent_Tfidf_Weights.jpg "Independent Tfidf Weights")
 
 ### b) Analysis of Propagandistic Rhetoric
 On the other hand, looking at the top 20 words with the greatest weight in propagandistic rhetoric, we can see that more proper nouns appear here. Péter Magyar's name appears first (presumably, but Magyar also means "Hungarian" in Hungarian), followed immediately by his party, Tisza. This suggests a strong thematic emphasis in pro-government media during the observed time period. In addition, it is also noticeable that bigrams, expressions consisting of two words, have already appeared here, which the algorithm has successfully recognized (Peter Magyar, Viktor Orban, Tisza Party). The government's current thematic focus is clearly visible here: Peter Magyar, Tisza Party, and the Ukrainian-Russian conflict, which is receiving a lot of attention from the government media.
@@ -61,9 +61,10 @@ On the other hand, looking at the top 20 words with the greatest weight in propa
 The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. This suggests that while Russia is an unavoidable geopolitical factor on both sides, Ukraine is a specific "target" or "source of danger" in government rhetoric. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
 ![Lexical Divergence by Tfidf Weights](Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMT
-MwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1
-MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1Nj
-csLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5
-NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbNDk1ODA0NTQsLTE4MDE1MzYwMjIsMTE2NT
+gxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIw
+NTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLT
+EyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIx
+MzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMj
+RdfQ==
 -->
