@@ -18,6 +18,9 @@
  -  [4. Rhetorical
    Analysis from TF-IDF
    Weights](DOCUMENTATION.md#4-rhetorical-analysis-from-tf-idf-weights)
+   
+	 - [a) Analysis of Independent Rhetoric(DOCUMENTATION.md#a-analysis-of-independent-rhetoric)
+	- [a) Analysis of Propagandistic Rhetoric(DOCUMENTATION.md#b-analysis-of-propagandistic-rhetoric)
 
 ## 1. Data Collection
 The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*. Also, it can only be used with Hungarian-language texts/articles.
@@ -156,7 +159,7 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODIzMDI4LDE2NTA4MjQ0NzcsOTU1MT
+eyJoaXN0b3J5IjpbNTA4NTYyMTE3LDE2NTA4MjQ0NzcsOTU1MT
 QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
 NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
 wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
