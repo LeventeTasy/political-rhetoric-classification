@@ -2,6 +2,7 @@
 
 ### [1. Data Collection](DOCUMENTATION.md#1-data-collection-1)
 #### [a) URL Discovery via RSS Feeds](DOCUMENTATION.md#a-url-discovery-via-rss-feeds)
+#### [B) Article Scraping](DOCUMENTATION.md#b-article-scraping)
 
 
 ## 1. Data Collection
@@ -141,7 +142,7 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4ODcwNjc5LDk1NTE0MzE4MiwxNDMzMz
+eyJoaXN0b3J5IjpbNjAyNTE2NDIxLDk1NTE0MzE4MiwxNDMzMz
 kwODMyLC0xMDkxMDA4MzE2LC0xODExMzMyNTcxLC0xMjMzNzAy
 MjM1LC0xNzgxMjQxODMzLDIwNDgxMTk5ODIsLTE0NTQyODI5OT
 IsLTM4MzUzNzk0NiwxNjUxNzAwMTEzLDk3NjMxMTU0NSwxNTg3
