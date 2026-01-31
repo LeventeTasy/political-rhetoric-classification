@@ -166,13 +166,13 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 
-Created by: Levente Tasy
+Created by Levente Tasy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjExMDA5MywxNjUwODI0NDc3LDk1NT
-E0MzE4MiwxNDMzMzkwODMyLC0xMDkxMDA4MzE2LC0xODExMzMy
-NTcxLC0xMjMzNzAyMjM1LC0xNzgxMjQxODMzLDIwNDgxMTk5OD
-IsLTE0NTQyODI5OTIsLTM4MzUzNzk0NiwxNjUxNzAwMTEzLDk3
-NjMxMTU0NSwxNTg3ODQ0ODMxLC0xNzQyMjQ4OTczLC0zMDcyMz
-kwNDQsMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC0xODAxNTM2MDIy
-LDExNjU4MTMzODJdfQ==
+eyJoaXN0b3J5IjpbODI0NjM5MTQ1LDE2NTA4MjQ0NzcsOTU1MT
+QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
+NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
+wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
+MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOT
+A0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIs
+MTE2NTgxMzM4Ml19
 -->
