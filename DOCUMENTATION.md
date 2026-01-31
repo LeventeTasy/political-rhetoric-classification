@@ -71,7 +71,7 @@ LinearSVC was chosen for its strong performance in high-dimensional sparse text 
 The ensemble approach was motivated by the observation that different models exhibit complementary error patterns. Wheile LinearSVC tends to be conservative in predicting propagandistic rhetoric, Gradient Boosting impoves recall by identifying subtler stylistic rules.
 
 ### Results
-
+The model achieved a strong accuracy of 0.89.
 <div align="center">
 
 |          | precision | recall | f1-score | support |
@@ -82,7 +82,7 @@ The ensemble approach was motivated by the observation that different models exh
 
 </div>
 
-The model achieved a strong accuracy of 0.89. The high precision for the 'propagandistic' label indicates a conservative classification strategy, minimizing false accusations (False Positives). Consequently, the model exhibits high recall for the 'independent' label, ensuring that non-manipulative content is rarely misclassified. While this approach might result in some propaganda remaining undetected, it prioritizes the avoidance of 'negative criticism' or unjust labeling of independent outlets.
+The high precision for the 'propagandistic' label indicates a conservative classification strategy, minimizing false accusations (False Positives). Consequently, the model exhibits high recall for the 'independent' label, ensuring that non-manipulative content is rarely misclassified. While this approach might result in some propaganda remaining undetected, it prioritizes the avoidance of 'negative criticism' or unjust labeling of independent outlets.
 <div align="center">
 
 ![The Confusion Matric of the Ensemble Model](plots/ensemble_cm.png "The Confusion Matric of the Ensemble Model")
@@ -110,11 +110,11 @@ Another characteristic of this model is that it gave more false alarms to propag
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTAwMzYzNCwtMzgzNTM3OTQ2LDE2NT
-E3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5
-NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLT
-E4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMw
-Njc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MD
-EzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwt
-MTEwODE5MTM1XX0=
+eyJoaXN0b3J5IjpbLTE0NTQyODI5OTIsLTM4MzUzNzk0NiwxNj
+UxNzAwMTEzLDk3NjMxMTU0NSwxNTg3ODQ0ODMxLC0xNzQyMjQ4
+OTczLC0zMDcyMzkwNDQsMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC
+0xODAxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEz
+MDY3OTI3MjEsLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5Nj
+AxMzQsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUs
+LTExMDgxOTEzNV19
 -->
