@@ -73,14 +73,14 @@ The ensemble approach was motivated by the observation that different models exh
 | 1        | 0.94      | 0.83   | 0.88     | 105     |
 | accuracy |           |        | 0.89     | 216     |
 
-As we can see, the model achieved a strong accuracy of 0.89 on the test set. Furthermore, since the label "propagandistic rhetoric" (1) has a high precision value, it means that articles are much less likely to be labeled as propagandistic, and more likely to be labeled as independent. This is also useful because it means that articles are less likely to be criticized negatively. It only pronounces judgment when it is certain.This is supported by the recall value of the independent rhetoric label. Here, the recall value is significantly higher than the precision value, so it tends to label more articles as independent.
+The model achieved a strong accuracy of 0.89. The high precision for the 'propagandistic' label indicates a conservative classification strategy, minimizing false accusations (False Positives). Consequently, the model exhibits high recall for the 'independent' label, ensuring that non-manipulative content is rarely misclassified. While this approach might result in some propaganda remaining undetected, it prioritizes the avoidance of 'negative criticism' or unjust labeling of independent outlets.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk2Mjg0MjIsLTE3NDIyNDg5NzMsLT
-MwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1
-MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5Mj
-cyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3
-MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwOD
-E5MTM1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5
-LC02NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbMTI3NzkyNDMsLTE3NDIyNDg5NzMsLTMwNz
+IzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYw
+MjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMS
+wtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQx
+OTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwODE5MT
+M1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5LC02
+NTQ0OTAyMjRdfQ==
 -->
