@@ -1,5 +1,6 @@
 # Project Documentation
 
+## Table of Contents
  - [1. Data Collection](DOCUMENTATION.md#1-data-collection-1) 
 	 - [a) URL
    Discovery via RSS
@@ -155,7 +156,7 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4NzcyMDU1LDE2NTA4MjQ0NzcsOTU1MT
+eyJoaXN0b3J5IjpbMTY2ODIzMDI4LDE2NTA4MjQ0NzcsOTU1MT
 QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
 NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
 wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
