@@ -91,6 +91,7 @@ The model achieved a strong accuracy of 0.89. The high precision for the 'propag
 
 ## 6. Other experimental models
 ### a) Decision Tree
+This model is easy to understand and its operation can be traced back, as it is clear to see which word led to the decision. In addition, it is capable of recognizing complex rules that a simple (e.g., linear) model cannot. However, since there are many features in text classification, this model can overfit the training data, which leads to it learning too much noise, or the addition of a single new article to the training data can completely rearrange the tree structure.
 <div align="center">
 
 |          | precision | recall | f1-score | support |
@@ -102,11 +103,11 @@ The model achieved a strong accuracy of 0.89. The high precision for the 'propag
 </div>
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4Nz
-g0NDgzMSwtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMzc5
-NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC
-0xMzA1NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3
-MzUzNjk5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MT
-U2NywtODYwMjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2Nywt
-Njk1Nzg3OTEzXX0=
+eyJoaXN0b3J5IjpbLTM4MzUzNzk0NiwxNjUxNzAwMTEzLDk3Nj
+MxMTU0NSwxNTg3ODQ0ODMxLC0xNzQyMjQ4OTczLC0zMDcyMzkw
+NDQsMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC0xODAxNTM2MDIyLD
+ExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEzMDY3OTI3MjEsLTIz
+MjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5NjAxMzQsNzE0MTkxMz
+g2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUsLTExMDgxOTEzNSwt
+NzMyMTMxNDY3XX0=
 -->
