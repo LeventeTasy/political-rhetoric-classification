@@ -74,13 +74,14 @@ The ensemble approach was motivated by the observation that different models exh
 | accuracy |           |        | 0.89     | 216     |
 
 The model achieved a strong accuracy of 0.89. The high precision for the 'propagandistic' label indicates a conservative classification strategy, minimizing false accusations (False Positives). Consequently, the model exhibits high recall for the 'independent' label, ensuring that non-manipulative content is rarely misclassified. While this approach might result in some propaganda remaining undetected, it prioritizes the avoidance of 'negative criticism' or unjust labeling of independent outlets.
+![The ](plots/ensemble_cm.jpg "Lexical Divergence by Tfidf Weights")
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzkyNDMsLTE3NDIyNDg5NzMsLTMwNz
-IzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYw
-MjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMS
-wtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQx
-OTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwODE5MT
-M1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5LC02
-NTQ0OTAyMjRdfQ==
+eyJoaXN0b3J5IjpbLTE5MzQ0MDU2NTEsLTE3NDIyNDg5NzMsLT
+MwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1
+MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5Mj
+cyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3
+MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwOD
+E5MTM1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5
+LC02NTQ0OTAyMjRdfQ==
 -->
