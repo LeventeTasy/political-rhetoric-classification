@@ -61,10 +61,10 @@ On the other hand, looking at the top 20 words with the greatest weight in propa
 The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. This suggests that while Russia is an unavoidable geopolitical factor on both sides, Ukraine is a specific "target" or "source of danger" in government rhetoric. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
 ![Lexical Divergence by Tfidf Weights](plots/Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
 ## 5. Final Ensemble Model
-For this project, an ensemble model was selected, combining a LinearSVCr and a Grandient Boosting Classifier in a Voting Classifier using a hard voting strategy. This model combines the predictions of multiple base estimators, ensuring a robust majority-rule decision. 
-LinearSVC was chosen for its strong performance in high-dime
+For this project, an ensemble model was selected, combining a LinearSVC and a Grandient Boosting Classifier in a Voting Classifier using a hard voting strategy. This model combines the predictions of multiple base estimators, ensuring a robust majority-rule decision. 
+LinearSVC was chosen for its strong performance in high-dimensional sparse text representations, while Gradien Boosting complements it by capturing non-linear interactions between feaures.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjk3MjU2NiwyMDI3MTYzNzU3LC0xOD
+eyJoaXN0b3J5IjpbMTAzMDUxMzQ5NiwyMDI3MTYzNzU3LC0xOD
 AxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEzMDY3
 OTI3MjEsLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5NjAxMz
 QsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUsLTEx
