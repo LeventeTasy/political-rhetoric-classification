@@ -127,12 +127,15 @@ Here, it can be seen from the data and the confusion matrix that it performed be
 ![The Confusion Matric of the Random ForestModel](plots/rf_cm.png "The Confusion Matric of the Random Forest Model")
 
 </div>
+
+## 7. Future Scalability
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTQzNTQxNCwtMTIzMzcwMjIzNSwtMT
-c4MTI0MTgzMywyMDQ4MTE5OTgyLC0xNDU0MjgyOTkyLC0zODM1
-Mzc5NDYsMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4Nzg0NDgzMS
-wtMTc0MjI0ODk3MywtMzA3MjM5MDQ0LDE4NzgwMzc5NDEsMjAy
-NzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1ND
-U2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5
-OCwxNTE0OTYwMTM0XX0=
+eyJoaXN0b3J5IjpbLTE4MTEzMzI1NzEsLTEyMzM3MDIyMzUsLT
+E3ODEyNDE4MzMsMjA0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMzgz
+NTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4Mz
+EsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIw
+MjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNT
+Q1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5
+OTgsMTUxNDk2MDEzNF19
 -->
