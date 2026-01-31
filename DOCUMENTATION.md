@@ -61,12 +61,12 @@ On the other hand, looking at the top 20 words with the greatest weight in propa
 The thematic distribution is clearly visible in this figure. We can see that the biggest difference is between the mention of the ruling party (Fidesz) and the largest opposition party (Tisza Party). While the largest opposition party is most often mentioned by the government press, the ruling party is most often mentioned by the opposition press. It is also noticeable that, as the government places great emphasis on fear of Ukraine, the words Ukrainian/Ukraine are given significantly more weight in the model for the government media than for the independent media, while Russia is divided equally between the two. This suggests that while Russia is an unavoidable geopolitical factor on both sides, Ukraine is a specific "target" or "source of danger" in government rhetoric. Here, too, frightening words such as "war" appear, which also occur more frequently in the government media than in the independent press.
 ![Lexical Divergence by Tfidf Weights](plots/Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
 ## 5. Final Ensemble Model
-For this project, an ensemble model was selected, combining a Linear Support Vector Classifier and a Grandient Boosting Classifier in a Voting Classifier usi
+For this project, an ensemble model was selected, combining a Linear Support Vector Classifier and a Grandient Boosting Classifier in a Voting Classifier using a soft voting strategy. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDMzMjQ2NjksMjAyNzE2Mzc1NywtMT
-gwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2NzU4LC0xMzA2
-NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OCwxNTE0OTYwMT
-M0LDcxNDE5MTM4NiwtMTI3NDM0MTU2NywtODYwMjE5OTQ1LC0x
-MTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3OTEzLC04OTIxNz
-YzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbMTA4NzM1OTQ5MSwyMDI3MTYzNzU3LC0xOD
+AxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEzMDY3
+OTI3MjEsLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5NjAxMz
+QsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUsLTEx
+MDgxOTEzNSwtNzMyMTMxNDY3LC02OTU3ODc5MTMsLTg5MjE3Nj
+M4OSwtNjU0NDkwMjI0XX0=
 -->
