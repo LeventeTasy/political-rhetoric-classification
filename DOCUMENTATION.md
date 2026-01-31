@@ -78,10 +78,10 @@ weighted avg 0.89 0.89 0.89 216
 | 0        | 0.85      | 0.95   | 0.90     | 111     |
 | 1        | 0.94      | 0.83   | 0.88     | 105     |
 | accuracy |           |        | 0.89     | 216     |
-As we can see, the model achieved a strong accuracy of 0.89 on the test set.
+As we can see, the model achieved a strong accuracy of 0.89 on the test set. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTExMjQzNywtMzA3MjM5MDQ0LDE4Nz
+eyJoaXN0b3J5IjpbLTI2ODMzMTM5NywtMzA3MjM5MDQ0LDE4Nz
 gwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEz
 MzgyLC0xMzA1NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1Nz
 UsMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3
