@@ -50,6 +50,7 @@ from process_articles import process_articles
 # Collecting new URLs using RSS feeds
 KEYWORDS = [...]
 collect_news(category_id=0, output_file='../../data/0urls.txt', keywords=KEYWORDS, max_items=200) # It is not necessary to specify the max_items or keywords from the outset.
+collect_news(category_id=1, output_file='../../data/1urls.txt', keywords=KEYWORDS, max_items=200) 
 
 # Downloading the articles, and attach them to the CSV file
 process_articles(source_file="../../data/0urls.txt", label=0) # 0 = Independent, 1 = Pro-Government
