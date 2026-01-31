@@ -78,14 +78,14 @@ weighted avg 0.89 0.89 0.89 216
 | 0        | 0.85      | 0.95   | 0.90     | 111     |
 | 1        | 0.94      | 0.83   | 0.88     | 105     |
 | accuracy |           |        | 0.89     | 216     |
-As we can see, the model achieved a strong accuracy of 0.89 on the test set. 
+As we can see, the model achieved a strong accuracy of 0.89 on the test set. Furthermore, since the label "propagandistic rhetoric" (1) has a high precision value, it means that articles are much less likely to be labeled as propagandistic, and more likely to be labeled as independent. This is also useful because it means that articles are less likely to be criticized negatively.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODMzMTM5NywtMzA3MjM5MDQ0LDE4Nz
-gwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEz
-MzgyLC0xMzA1NDU2NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1Nz
-UsMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3
-NDM0MTU2NywtODYwMjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMT
-Q2NywtNjk1Nzg3OTEzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
-
+eyJoaXN0b3J5IjpbLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxOD
+c4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgx
+MzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNT
+c1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEy
+NzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMz
+E0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRd
+fQ==
 -->
