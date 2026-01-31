@@ -73,14 +73,14 @@ The ensemble approach was motivated by the observation that different models exh
 | 1        | 0.94      | 0.83   | 0.88     | 105     |
 | accuracy |           |        | 0.89     | 216     |
 
-As we can see, the model achieved a strong accuracy of 0.89 on the test set. Furthermore, since the label "propagandistic rhetoric" (1) has a high precision value, it means that articles are much less likely to be labeled as propagandistic, and more likely to be labeled as independent. This is also useful because it means that articles are less likely to be criticized negatively. This is supported by the recall value of the independent rhetoric label. Here, the recall value is significantly higher than the precision value, so it tends to label more articles as independent.
+As we can see, the model achieved a strong accuracy of 0.89 on the test set. Furthermore, since the label "propagandistic rhetoric" (1) has a high precision value, it means that articles are much less likely to be labeled as propagandistic, and more likely to be labeled as independent. This is also useful because it means that articles are less likely to be criticized negatively. It only pronounces judgment when it is certain.This is supported by the recall value of the independent rhetoric label. Here, the recall value is significantly higher than the precision value, so it tends to label more articles as independent.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDc4ODAwMiwtMTc0MjI0ODk3MywtMz
-A3MjM5MDQ0LDE4NzgwMzc5NDEsMjAyNzE2Mzc1NywtMTgwMTUz
-NjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2NzU4LC0xMzA2NzkyNz
-IxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OCwxNTE0OTYwMTM0LDcx
-NDE5MTM4NiwtMTI3NDM0MTU2NywtODYwMjE5OTQ1LC0xMTA4MT
-kxMzUsLTczMjEzMTQ2NywtNjk1Nzg3OTEzLC04OTIxNzYzODks
-LTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbLTE0Nzk2Mjg0MjIsLTE3NDIyNDg5NzMsLT
+MwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1
+MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5Mj
+cyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3
+MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOTk0NSwtMTEwOD
+E5MTM1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywtODkyMTc2Mzg5
+LC02NTQ0OTAyMjRdfQ==
 -->
