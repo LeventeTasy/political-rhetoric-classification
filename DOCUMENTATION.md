@@ -88,12 +88,15 @@ The model achieved a strong accuracy of 0.89. The high precision for the 'propag
 ![The Confusion Matric of the Ensemble Model](plots/ensemble_cm.png "The Confusion Matric of the Ensemble Model")
 
 </div>
+
+## 6. Other experimental models
+### a) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3ND
-IyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3
-NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OC
-wtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUx
-NDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2MDIxOT
-k0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5NTc4NzkxMywt
-ODkyMTc2Mzg5XX0=
+eyJoaXN0b3J5IjpbLTE2NDY5MzY5MDYsOTc2MzExNTQ1LDE1OD
+c4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NCwxODc4MDM3
+OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4Mi
+wtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0
+NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzND
+E1NjcsLTg2MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0Njcs
+LTY5NTc4NzkxM119
 -->
