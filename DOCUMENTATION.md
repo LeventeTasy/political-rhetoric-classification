@@ -7,7 +7,7 @@
 ### [3. Feature Engineering](DOCUMENTATION.md#3-feature-engineering)
 #### [a) CountVectorizer](DOCUMENTATION.md#a-countvectorizer)
 #### [B) TfidfTransformer](DOCUMENTATION.md#b-tfidftransformer)
-### [3. Feature Engineering](DOCUMENTATION.md#3-feature-engineering)
+### [4. Rhetorical Analysis from TF-IDF Weights](DOCUMENTATION.md#4-rhetorical-analysis-from-tf-idf-weights)
 
 ## 1. Data Collection
 The data was collected between *December 2025* and *January 2026*. The model uses approximately **1,700 articles**, half of which are propaganda rhetoric articles and half of which are independent rhetoric articles. Since the data was collected only in the last month, it can only produce reliable results in *current politics*. Labels reflect source affiliation and rhetorical style, *not factual correctness*. Also, it can only be used with Hungarian-language texts/articles.
@@ -146,7 +146,7 @@ This tool is intended for academic research purposes only.
 - **Subjectivity**: Defining "propaganda" is inherently complex; the model reflects the patterns found in the training data.
 - **No Truth-Discovery**: This model detects rhetorical patterns, not the factual accuracy of the content.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzg5MjM1NCw5NTUxNDMxODIsMTQzMz
+eyJoaXN0b3J5IjpbMTY1MDgyNDQ3Nyw5NTUxNDMxODIsMTQzMz
 M5MDgzMiwtMTA5MTAwODMxNiwtMTgxMTMzMjU3MSwtMTIzMzcw
 MjIzNSwtMTc4MTI0MTgzMywyMDQ4MTE5OTgyLC0xNDU0MjgyOT
 kyLC0zODM1Mzc5NDYsMTY1MTcwMDExMyw5NzYzMTE1NDUsMTU4
