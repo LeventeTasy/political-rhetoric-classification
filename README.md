@@ -14,7 +14,7 @@ The core of the system is a **Voting Classifier** ensemble that leverages two di
 ### Data & Preprocessing
 - **Dataset Size:** Trained on a curated corpus of **~1,700 Hungarian news articles**.
 - **Collection Period:** Data was collected between **December 2025 and January 2026**.
-- **Preprocessing:** - Custom Hungarian tokenizer.
+- **Preprocessing:**
   - Stopword removal (standard Hungarian set).
   - TF-IDF vectorization with n-gram support.
 - **Output:** The model provides a binary label (0/1) and a calibrated probability score.
