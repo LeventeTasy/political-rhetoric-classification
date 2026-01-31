@@ -158,7 +158,7 @@ Here, it can be seen from the data and the confusion matrix that it performed be
 </div>
 
 ## 7. Future Scalability
-Using the attached .py files, it is also possible to expand the model's dataset in order to increase its potential performance. In addition, with a small modification, it is also possible to use the model for other languages in the preprocessing process. Furthermore, the next stage of the project will be to incorporate parliamentary speeches into the model, enabling it to recognize many more rhetorical patterns.
+Using the attached `.py` files, it is also possible to expand the model's dataset in order to increase its potential performance. In addition, with a small modification, it is also possible to use the model for other languages in the preprocessing process. Furthermore, the next stage of the project will be to incorporate parliamentary speeches into the model, enabling it to recognize many more rhetorical patterns.
 
 ## 8. Ethical Considerations & Disclaimer
 This tool is intended for academic research purposes only.
@@ -168,11 +168,11 @@ This tool is intended for academic research purposes only.
 
 Created by Levente Tasy
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0NjM5MTQ1LDE2NTA4MjQ0NzcsOTU1MT
-QzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYsLTE4MTEzMzI1
-NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMjA0ODExOTk4Mi
-wtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2
-MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOT
-A0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIs
-MTE2NTgxMzM4Ml19
+eyJoaXN0b3J5IjpbODY0ODQwNTksODI0NjM5MTQ1LDE2NTA4Mj
+Q0NzcsOTU1MTQzMTgyLDE0MzMzOTA4MzIsLTEwOTEwMDgzMTYs
+LTE4MTEzMzI1NzEsLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMj
+A0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3
+MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5Nz
+MsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4
+MDE1MzYwMjJdfQ==
 -->
