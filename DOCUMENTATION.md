@@ -62,14 +62,14 @@ The thematic distribution is clearly visible in this figure. We can see that the
 ![Lexical Divergence by Tfidf Weights](plots/Lexical_Divergence_by_Tfidf_Weights.jpg "Lexical Divergence by Tfidf Weights")
 ## 5. Final Ensemble Model
 For this project, an ensemble model was selected, combining a LinearSVC and a Grandient Boosting Classifier in a Voting Classifier using a hard voting strategy. This model combines the predictions of multiple base estimators, ensuring a robust majority-rule decision. 
-LinearSVC was chosen for its strong performance in high-dimensional sparse text representations, while Gradien Boosting complements it by capturing non-linear interactions between feaures.
+LinearSVC was chosen for its strong performance in high-dimensional sparse text representations, while Gradien Boosting complements it by capturing non-linear interactions between feaures. This model was then saved in a pipeline named `ensemble_pipeline_id1_0_89.joblib`.
 
 ![The structure of the model](plots/ensemble_modell.png "The structure of the model ")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MjYzNzE1LDE4NzgwMzc5NDEsMjAyNz
-E2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2
-NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OC
-wxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MTU2NywtODYw
-MjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3OT
-EzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
+eyJoaXN0b3J5IjpbMTg4Mzg3NzE5NiwxODc4MDM3OTQxLDIwMj
+cxNjM3NTcsLTE4MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1
+Njc1OCwtMTMwNjc5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OT
+gsMTUxNDk2MDEzNCw3MTQxOTEzODYsLTEyNzQzNDE1NjcsLTg2
+MDIxOTk0NSwtMTEwODE5MTM1LC03MzIxMzE0NjcsLTY5NTc4Nz
+kxMywtODkyMTc2Mzg5LC02NTQ0OTAyMjRdfQ==
 -->
