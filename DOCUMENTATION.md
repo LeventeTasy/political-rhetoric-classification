@@ -111,7 +111,7 @@ Another characteristic of this model is that it gave more false alarms to propag
 </div>
 
 ### b) Random Forest
-While a single decision tree tends to get lost in the details (overfitting), Random Forest averages the opinions of many trees, thus providing a much more stable result; the model will not focus on the unique noise of a single article. It generalizes much better on the test data. This model can accurately tell which words contributed most to the decision globally, at the forest level. 
+While a single decision tree tends to get lost in the details (overfitting), Random Forest averages the opinions of many trees, thus providing a much more stable result; the model will not focus on the unique noise of a single article. It generalizes much better on the test data. This model can accurately tell which words contributed most to the decision globally, at the forest level. However, it is less suitable for text classification, as it performs poorly with sparse data. In addition, it is difficult to understand how it works, as 300 trees worked together here.
 <div align="center">
 
 |          | precision | recall | f1-score | support |
@@ -122,12 +122,17 @@ While a single decision tree tends to get lost in the details (overfitting), Ran
 
 </div>
 
+<div align="center">
+
+![The Confusion Matric of the Random ForestModel](plots/rf_cm.png "The Confusion Matric of the Random Forest Model")
+
+</div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODEyNDE4MzMsMjA0ODExOTk4MiwtMT
-Q1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3MDAxMTMsOTc2MzEx
-NTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5NzMsLTMwNzIzOTA0NC
-wxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4MDE1MzYwMjIsMTE2
-NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNjc5MjcyMSwtMjMyNz
-IwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEzNCw3MTQxOTEzODYs
-LTEyNzQzNDE1NjddfQ==
+eyJoaXN0b3J5IjpbLTEyMzM3MDIyMzUsLTE3ODEyNDE4MzMsMj
+A0ODExOTk4MiwtMTQ1NDI4Mjk5MiwtMzgzNTM3OTQ2LDE2NTE3
+MDAxMTMsOTc2MzExNTQ1LDE1ODc4NDQ4MzEsLTE3NDIyNDg5Nz
+MsLTMwNzIzOTA0NCwxODc4MDM3OTQxLDIwMjcxNjM3NTcsLTE4
+MDE1MzYwMjIsMTE2NTgxMzM4MiwtMTMwNTQ1Njc1OCwtMTMwNj
+c5MjcyMSwtMjMyNzIwNTc1LDE0NzM1MzY5OTgsMTUxNDk2MDEz
+NCw3MTQxOTEzODZdfQ==
 -->
