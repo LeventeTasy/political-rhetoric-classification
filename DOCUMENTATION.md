@@ -63,12 +63,13 @@ The thematic distribution is clearly visible in this figure. We can see that the
 ## 5. Final Ensemble Model
 For this project, an ensemble model was selected, combining a LinearSVC and a Grandient Boosting Classifier in a Voting Classifier using a hard voting strategy. This model combines the predictions of multiple base estimators, ensuring a robust majority-rule decision. 
 LinearSVC was chosen for its strong performance in high-dimensional sparse text representations, while Gradien Boosting complements it by capturing non-linear interactions between feaures.
+
 ![The structure of the model](plots/ensemble_modell.png "The structure of the model ")
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODAzNzk0MSwyMDI3MTYzNzU3LC0xOD
-AxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3NTgsLTEzMDY3
-OTI3MjEsLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1MTQ5NjAxMz
-QsNzE0MTkxMzg2LC0xMjc0MzQxNTY3LC04NjAyMTk5NDUsLTEx
-MDgxOTEzNSwtNzMyMTMxNDY3LC02OTU3ODc5MTMsLTg5MjE3Nj
-M4OSwtNjU0NDkwMjI0XX0=
+eyJoaXN0b3J5IjpbNzM3MjYzNzE1LDE4NzgwMzc5NDEsMjAyNz
+E2Mzc1NywtMTgwMTUzNjAyMiwxMTY1ODEzMzgyLC0xMzA1NDU2
+NzU4LC0xMzA2NzkyNzIxLC0yMzI3MjA1NzUsMTQ3MzUzNjk5OC
+wxNTE0OTYwMTM0LDcxNDE5MTM4NiwtMTI3NDM0MTU2NywtODYw
+MjE5OTQ1LC0xMTA4MTkxMzUsLTczMjEzMTQ2NywtNjk1Nzg3OT
+EzLC04OTIxNzYzODksLTY1NDQ5MDIyNF19
 -->
