@@ -1,6 +1,6 @@
 # Project Documentation
 
-## Table of Contents
+## 0. Table of Contents
  - [1. Data Collection](DOCUMENTATION.md#1-data-collection-1) 
 	 - [a) URL
    Discovery via RSS
