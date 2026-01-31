@@ -63,15 +63,22 @@ The thematic distribution is clearly visible in this figure. We can see that the
 ## 5. Final Ensemble Model
 For this project, an ensemble model was selected, combining a LinearSVC and a Grandient Boosting Classifier in a Voting Classifier using a hard voting strategy. This model combines the predictions of multiple base estimators, ensuring a robust majority-rule decision. 
 LinearSVC was chosen for its strong performance in high-dimensional sparse text representations, while Gradien Boosting complements it by capturing non-linear interactions between feaures. This model was then saved in a pipeline named `ensemble_pipeline_id1_0_89.joblib`.
+<div align="center">
 
 ![The structure of the model](plots/ensemble_modell.png "The structure of the model ")
+
+</div>
 The ensemble approach was motivated by the observation that different models exhibit complementary error patterns. Wheile LinearSVC tends to be conservative in predicting propagandistic rhetoric, Gradient Boosting impoves recall by identifying subtler stylistic rules.
 ### Results
+<div align="center">
+
 |          | precision | recall | f1-score | support |
 |----------|-----------|--------|----------|---------|
 | 0        | 0.85      | 0.95   | 0.90     | 111     |
 | 1        | 0.94      | 0.83   | 0.88     | 105     |
 | accuracy |           |        | 0.89     | 216     |
+
+</div>
 
 The model achieved a strong accuracy of 0.89. The high precision for the 'propagandistic' label indicates a conservative classification strategy, minimizing false accusations (False Positives). Consequently, the model exhibits high recall for the 'independent' label, ensuring that non-manipulative content is rarely misclassified. While this approach might result in some propaganda remaining undetected, it prioritizes the avoidance of 'negative criticism' or unjust labeling of independent outlets.
 <div align="center">
@@ -80,7 +87,7 @@ The model achieved a strong accuracy of 0.89. The high precision for the 'propag
 
 </div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDA1ODEyMywxNTg3ODQ0ODMxLC0xNz
+eyJoaXN0b3J5IjpbLTU0NjU2NDM1OSwxNTg3ODQ0ODMxLC0xNz
 QyMjQ4OTczLC0zMDcyMzkwNDQsMTg3ODAzNzk0MSwyMDI3MTYz
 NzU3LC0xODAxNTM2MDIyLDExNjU4MTMzODIsLTEzMDU0NTY3NT
 gsLTEzMDY3OTI3MjEsLTIzMjcyMDU3NSwxNDczNTM2OTk4LDE1
