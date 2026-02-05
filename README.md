@@ -1,6 +1,6 @@
 # Political Rhetoric Classification in Hungarian Media
 
-##Live Demo
+## Live Demo
 Try the model interactively via Hugging Face Spaces:
 **https://huggingface.co/spaces/LeventeTasy/political-rhetoric-classification**
 
