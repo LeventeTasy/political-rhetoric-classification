@@ -1,5 +1,9 @@
 # Political Rhetoric Classification in Hungarian Media
 
+##Live Demo
+Try the model interactively via Hugging Face Spaces:
+**https://huggingface.co/spaces/LeventeTasy/political-rhetoric-classification**
+
 ## Overview
 This project presents a machine learning pipeline specifically designed to detect and classify political rhetoric and potentially manipulative content in Hungarian-language news articles. Given the complex linguistic features of Hungarian, the project utilizes an ensemble approach to distinguish between **neutral reporting** and **propagandistic discourse**.
 
